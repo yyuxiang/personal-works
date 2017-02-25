@@ -107,7 +107,7 @@ window.onload=function(){
 				};
 					this.className='active';
 					move(oMainCon,{top:-index*aDiv[0].offsetHeight});
-				}
+				};
 			})(i);
 		}
 };
