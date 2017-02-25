@@ -107,7 +107,7 @@ function jsonp(options){
     //创建script标签,丢到页面
     var oSc=document.createElement('script');
     oSc.src=options.url+'?'+str;
-    document.getElementsByTagName('head')[0].appendChild(oSc);
+    document.body.appendChild(oSc);
     if(options.timeout){
         var timer=setTimeout(function(){
             options.error && options.error();
