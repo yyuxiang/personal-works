@@ -23,7 +23,7 @@ window.onload=function(){
 		
 		//天气
 		jsonp({
-			url:'http://api.asilu.com/weather/',
+			url:'https://api.asilu.com/weather/',
 			data:{
 				city:'上海'
 			},
