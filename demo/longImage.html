@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QQ长图</title>
+		<style>
+			#div2{
+				width: 300px;
+				height: 300px;
+				border: 1px solid #FF0000;
+				margin: 50px auto;
+				overflow: hidden;
+				position: relative;
+			}
+			#div2 span{
+				position: absolute;
+				left: 0;
+				height: 150px;
+				width: 100%;
+			}
+			#top{
+				top: 0;
+				background: yellow;
+				opacity: 0.3;
+			}
+			#bottom{
+				bottom: 0;
+				background: deepskyblue;
+				opacity: 0.3;
+			}
+			#div2 img{
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		</style>
+		<script>
+			function getStyle(obj,name){
+				if(obj.currentStyle){
+					return obj.currentStyle[name];
+				}else{
+					return getComputedStyle(obj,false)[name]
+				}
+			};
+			window.onload=function(){
+				var oDiv=document.getElementById('div2');
+				var oImg=oDiv.getElementsByTagName('img')[0];
+				var oTop=document.getElementById('top');
+				var oBottom=document.getElementById('bottom');
+				var timer=null;
+				
+				var maxTop=parseInt(getStyle(oImg,'height'))-parseInt(getStyle(oDiv,'height'));
+				
+				var top=0;
+				oTop.onmouseover=function(){
+					clearInterval(timer);
+					timer=setInterval(function(){
+						top=top-10;
+						if(top<=-maxTop){
+							top=-maxTop;
+						}
+						oImg.style.top=top+'px';
+					},50)
+				}
+				oTop.onmouseout=function(){
+					clearInterval(timer);
+				};
+				oBottom.onmouseover=function(){
+					clearInterval(timer);
+					timer=setInterval(function(){
+						top=top+10;
+						if(top>0){
+							top=0;
+						}
+						oImg.style.top=top+'px';
+					},50)
+				}
+				oBottom.onmouseout=function(){
+					clearInterval(timer);
+				};
+			}
+		</script>
+	</head>
+	<body>
+		<div id="div2">
+			<img src="../img/tu.jpg" alt="QQ长图" />
+			<span id="top"></span>
+			<span id="bottom"></span>
+		</div>
+	</body>
+</html>

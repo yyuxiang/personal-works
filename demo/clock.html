@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>时钟</title>
+	<style>
+		.container{
+			width: 300px;
+			height: 300px;
+			border:  2px solid black;
+			border-radius: 50%;
+			margin: 20px auto;
+			position: relative;
+		}
+
+		.hour{
+			width: 10px;
+			height: 50px;
+			background-color: green;
+			position: absolute;
+			left: 145px;
+			top: 100px;
+			transform-origin: center bottom;
+		}
+
+		.minute{
+			width: 8px;
+			height: 80px;
+			background-color: pink;
+			position: absolute;
+			left: 146px;
+			top: 70px;
+			transform-origin: center bottom;
+		}
+
+		.second{
+			width: 4px;
+			height: 100px;
+			background-color: red;
+			position: absolute;
+			left: 148px;
+			top: 50px;
+			transform-origin: center bottom;
+		}
+
+		.cap{
+			width: 20px;
+			height: 20px;
+			background: radial-gradient(white,silver);
+			left: 140px;
+			top: 140px;
+			position: absolute;
+			border-radius: 50%;
+		}
+
+		.mark{
+			width: 4px;
+			height: 10px;
+			background-color: black;
+			position: absolute;
+			top: 0;
+			left: 148px;
+			transform-origin: 2px 150px;
+		}
+
+		.inner-block{
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			position: absolute;
+			left: -8px;
+			top: 12px;
+			line-height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="hour"></div>
+		<div class="minute"></div>
+		<div class="second"></div>
+		<div class="cap"></div>
+	</div>
+	<script>
+		var oContainer = document.querySelector('.container');
+		var oHour = document.querySelector('.hour');
+		var oMinute = document.querySelector('.minute');
+		var oSecond = document.querySelector('.second');
+
+		var count = 12;
+
+		for( var i = 0;i<count;i++ ){
+			var oDiv = document.createElement('div');
+				oDiv.classList.add('mark');
+				oDiv.style.transform = `rotate(${i*360/count}deg)`
+
+			var innerBlock = document.createElement('div');
+				innerBlock.classList.add('inner-block');
+
+				innerBlock.innerHTML = i;
+
+				innerBlock.style.transform = `rotate(${-i*360/count}deg)`
+
+				if( i == 0 ){
+					innerBlock.innerHTML = 12;
+				}
+
+				oDiv.appendChild(innerBlock);
+				oContainer.appendChild(oDiv);
+		}
+
+		setInterval(function(){
+			var oDate = new Date();
+
+			var hour = oDate.getHours();
+			var minute = oDate.getMinutes();
+			var second = oDate.getSeconds();
+			var millisecond = oDate.getMilliseconds();
+
+			oHour.style.transform = `rotate(${
+				(hour+minute/60)*360/12
+			}deg)`
+
+			oMinute.style.transform = `rotate(${
+				(minute+second/60)/60*360
+			}deg)`
+
+			oSecond.style.transform = `rotate(${
+				(second+millisecond/1000)/60*360
+			}deg)`
+		},16)
+	</script>
+</body>
+</html>

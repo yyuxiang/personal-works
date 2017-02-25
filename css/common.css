@@ -1,0 +1,13 @@
+*	{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	user-select:none;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: url(../img/body_top.png) repeat-x;
+}
+.clearfix:after{ content:""; display:block; clear:both;}
+.clearfix{zoom:1;}/*兼容IE6*/

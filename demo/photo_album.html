@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>九宫格</title>
+	<style>
+		body{
+			margin: 0;
+		}
+
+		ul,li{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		ul{
+			width: 300px;
+			height: 300px;
+			margin: 150px auto;
+		}
+		ul div{
+			width: 100%;
+			height: 30px;
+			margin-bottom: 30px;
+		}
+		ul div h3{
+			text-align: center;
+			line-height: 30px;
+		}
+		li{
+			width: 98px;
+			height: 98px;
+			float: left;
+			border: 1px solid black;
+			background-size: cover;
+			transition: 1s;
+			z-index: 1000;
+			position: relative;
+		}
+
+		li:active{
+			transform:scale(2) rotate(360deg);
+			z-index: 2000;
+		}
+	</style>
+</head>
+<body>
+	<ul class="contaienr">
+		<div>
+			<h3>鼠标放在图片上并且长按左键出效果喔</h3>
+		</div>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<script>
+		 var aLi = document.querySelectorAll('li');
+
+		 aLi.forEach(function(oLi,index){
+		 	oLi.style.backgroundImage = 'url(../img/cat-'+(index+1)+'.png)'
+		 })
+	</script>
+</body>
+</html>

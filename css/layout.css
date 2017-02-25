@@ -1,0 +1,369 @@
+#warp{
+	width: 100%;
+	height: 100%;
+}
+#warp #head {
+	width: 100%;
+	height: 130px;
+	background: url(../img/header_bg.png) repeat-x;
+}
+#warp #head,#warp #head #left{
+	width: 100%;
+	position: relative;
+}
+#warp #head #left img{
+	display: inline-block;
+	position: absolute;
+	left: -280px;
+	top: 0px;
+	margin-bottom: 50px;
+}
+#warp #head #right{
+	width: 150px;
+	height: 100px;
+	background: url(../img/weather.png);
+	position: absolute;
+	right: 230px;
+	top: 10px;
+}
+#warp #head #right #weather li{
+	font-size: 20px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+}
+#warp #contain{
+	width: 800px;
+	height: 540px;
+	border:5px solid #a69579;
+	border-radius: 15px;
+	margin: 0 auto;
+	background: #6c5d48;
+	position: relative;
+	overflow: hidden;
+}
+#contain_right{
+	width: 20px;
+	height: 130px;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	z-index: 100;
+	margin-top: -50px;
+}
+#contain_right ul li{
+	width: 20px;
+	height: 20px;
+	margin: 10px 0;
+	background: #c18633;
+	border-radius: 50%;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+}
+#contain_right ul li span{
+	width: 100px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	color: #f5940b;
+	display: none;
+	left: -65px;
+	top: -3px;
+}
+#contain_right ul li:hover span{
+	display: block;
+}
+#contain_right ul li.active{
+	background: #0bf2f5;
+}
+#main_contain{
+	width: 800px;
+	height: 550px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main_contain > div{
+	width: 800px;
+	height: 550px;
+	background: #6c5d48;
+	border-radius: 15px;
+	position: relative;
+}
+#main_contain .aboutMe_top{
+	width: 100%;
+	height: 100%;
+}
+#main_contain .aboutMe_top .aboutMe_font{
+	width: 100%;
+	height: 80px;
+	margin-top: 30px;
+}
+.aboutMe_font span {
+	font-size: 20px;
+    color: #fff;
+    opacity: 0;
+}
+.aboutMe_top #aboutMe_middle{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	margin-left: 30px;
+	position: relative;
+}
+.aboutMe_top ul{
+	position: absolute;
+	left: 60px;
+	top: 180px;
+	width:500px;
+	height: 250px;
+	border: 2px solid #000;
+}
+.aboutMe_top .skill li{
+	width: 100%;
+	height: 50px;
+	margin-left: 10px;
+	line-height: 50px;
+}
+.aboutMe_top .skill li i{
+	background: url(../img/skill_bg.png) no-repeat;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 2px 5px  0 ;
+	width: 14px;
+	height: 13px;
+}
+.aboutMe_top .assess{
+	display: none;
+}
+.aboutMe_top .assess li{
+	width: 100%;
+	height: 40px;
+	margin-left: 3px;
+	line-height: 40px;
+}
+.aboutMe_top .assess li span{
+	width: 50%;
+	height: 40px;
+	display: inline-block;
+}
+#aboutMe_middle strong{
+	position: absolute;
+	color: #cc9034;
+	left: 30px;
+}
+#aboutMe_middle #tab_btn1{
+	left: 30px;
+}
+#aboutMe_middle strong.active{
+	color: #f5f20c;
+}
+#aboutMe_middle #tab_btn2{
+	left: 130px;
+}
+#aboutMe_middle u{
+	width: 500px;
+	height: 2px;
+	display: block;
+	background: #000;				
+	position: absolute;
+	top: 50px;
+	left: 30px;
+}
+#aboutMe_middle span{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	background: #cc9034;
+	top: 38px;
+	cursor: pointer;
+	border: 3px solid #ccc;
+}
+#aboutMe_middle span:hover {
+	background: #0cf5e7;
+}
+#aboutMe_middle span.active{
+	background: #f5f20c;
+}
+#aboutMe_middle span:nth-child(4){
+	left: 50px;
+}
+#aboutMe_middle span:last-child{
+	left: 152px;
+}
+#aboutMe_middle span:first-child.active{
+	background: #968fbb;
+}	
+#aboutMe_middle span:first-child.active{
+	background: #84972b;
+}
+#warp #footer{
+	background: url(../img/footer_bg.jpg) no-repeat;
+	width: 100%;
+	height: 100px;
+}
+/*技能图解*/
+#main_contain .SkillBox{
+		width: 100%;
+		height: 100%;
+		
+		position: relative;
+	}
+	.SkillBox .Skill{
+		width: 660px;
+		height: 480px;
+		position: absolute;
+		top: 0px;
+		left: 50px;
+	}
+	.Skill li{
+		width: 200px;
+		height: 200px;
+		border: 1px solid #000;
+		float: left;
+		margin:20px 9px;
+		position: relative;
+		overflow: hidden;
+	}
+	.Skill li div{
+		width: 100%;
+		text-align: center;
+		margin-top: 60px;
+		height: 100%;
+	}
+	.Skill li span{
+		width: 200px;
+		height: 200px;
+		background: deepskyblue;
+		position: absolute;
+		left: -200px;
+		top: 0;
+		text-align: center;
+		z-index: 9999;
+	}
+	.Skill li span p{
+		margin-top:80px;
+	}
+
+#main_contain .production{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*作品*/
+.production .demo{
+	width: 660px;
+	height: 480px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+.production .demo li{
+	width: 200px;
+	height: 200px;
+	/*border-radius: 10px;*/
+	float: left;
+	margin:20px 9px;
+	position: relative;
+	overflow: hidden;
+}
+.production .demo li img{
+	transition: 1s;
+	/*border-radius: 10px;*/
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+.production .demo li img:hover{
+	transform: scale(1.1,1.1);
+}
+.production .demo li span{
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	background: #e22266;
+	position: absolute;
+	bottom: -50px;
+	opacity: 0.8;
+	color: #fff;
+	filter: alpha(opacity:0.8);
+	left: 0;
+	text-align: center;
+	line-height: 50px;
+	transition: all 0.3s;
+}
+.production .demo li:hover span{
+	bottom: 0;
+}
+/*联系我*/
+#main_contain .contact_Me{
+	width: 100%;
+	height: 100%;
+}
+.contact_Me .contact_warp{
+	width: 600px;
+	height: 500px;
+	margin: 20px auto;
+}
+.contact_warp .contact_tab{
+	width: 200px;
+	height: 200px;
+	padding: 10px 30px 30px 30px;
+	position: relative;
+	float: left;
+}
+.contact_tab .contact_tab_text{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+	line-height: 20px;
+	color: #FFCC33;
+}
+.contact_tab_warp img{
+	width: 200px;
+	height: 200px;
+}
+
+.phone img,.mail img,.wechat img,.qq img,.weibo img,.bilibili img{position: absolute;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;}	
+.phone:hover img,.mail:hover img,.wechat:hover img,.qq:hover img,.weibo:hover img,.bilibili:hover img{z-index: 1;}
+
+		
+.phone:hover img:nth-child(1){-ms-transform: rotate(10deg); -webkit-transform: rotate(10deg); transform: rotate(10deg);}
+.phone:hover img:nth-child(2){-ms-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg);}
+.phone:hover img:nth-child(3){-ms-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform: rotate(20deg);}	
+.phone:hover img:nth-child(4){-ms-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); transform: rotate(-20deg);}
+.phone:hover img:nth-child(5){-ms-transform: rotate(30deg); -webkit-transform: rotate(30deg); transform: rotate(30deg);}
+.phone:hover img:nth-child(6){-ms-transform: rotate(-30deg); -webkit-transform: rotate(-30deg); transform: rotate(-30deg);}
+.phone:hover img:nth-child(7){-ms-transform: scale(0.9,0.9); -webkit-transform: scale(0.9,0.9); transform: scale(0.9,0.9);}	
+	
+.wechat:hover img:nth-child(1){-ms-transform: translate(-80%,-160%) rotate(-80deg) scale(0.3,0.3);-webkit-transform: translate(-80%,-160%)  rotate(-80deg) scale(0.3,0.3);transform: translate(-80%,-160%)  rotate(-80deg) scale(0.3,0.3);}	
+.wechat:hover img:nth-child(2){-ms-transform: translate(-70%,-140%) rotate(-70deg) scale(0.4,0.4);-webkit-transform: translate(-70%,-140%)  rotate(-70deg) scale(0.4,0.4);transform: translate(-70%,-140%)  rotate(-70deg) scale(0.4,0.4);}		
+.wechat:hover img:nth-child(3){-ms-transform: translate(-60%,-120%) rotate(-60deg)  scale(0.5,0.5); -webkit-transform: translate(-60%,-120%)  rotate(-60deg)  scale(0.5,0.5); transform: translate(-60%,-120%)  rotate(-60deg)  scale(0.5,0.5); }	
+.wechat:hover img:nth-child(4){-ms-transform: translate(-50%,-100%) rotate(-50deg)  scale(0.6,0.6); -webkit-transform: translate(-50%,-100%)  rotate(-50deg)  scale(0.6,0.6); transform: translate(-50%,-100%)  rotate(-50deg)  scale(0.6,0.6); }			
+.wechat:hover img:nth-child(5){-ms-transform: translate(-40%,-80%) rotate(-40deg) scale(0.7,0.7); -webkit-transform: translate(-40%,-80%)  rotate(-40deg) scale(0.7,0.7); transform: translate(-40%,-80%)  rotate(-40deg) scale(0.7,0.7); }
+.wechat:hover img:nth-child(6){-ms-transform: translate(-30%,-60%) rotate(-30deg) scale(0.8,0.8);  -webkit-transform: translate(-30%,-60%)  rotate(-30deg) scale(0.8,0.8); transform: translate(-30%,-60%)  rotate(-30deg) scale(0.8,0.8); }	
+.wechat:hover img:nth-child(7){-ms-transform: translate(-20%,-40%) rotate(-20deg) scale(0.9,0.9); -webkit-transform: translate(-20%,-40%)  rotate(-20deg) scale(0.9,0.9);  transform: translate(-20%,-40%)  rotate(-20deg) scale(0.9,0.9); }		
+.wechat:hover img:nth-child(8){-ms-transform: translate(-10%,-20%) rotate(-10deg); -webkit-transform: translate(-10%,-20%)  rotate(-10deg); transform: translate(-10%,-20%)  rotate(-10deg);}
+.wechat:hover img:nth-child(9){-ms-transform: scale(1.1,1.1) ; -webkit-transform: scale(1.1,1.1) ; transform: scale(1.1,1.1) ;}
+
+
+.qq:hover img:nth-child(1){-ms-transform: translate(0,-40%) scale(0.5,0.5); -webkit-transform: translate(0,-40%) scale(0.5,0.5); transform: translate(0,-40%) scale(0.5,0.5); }			
+.qq:hover img:nth-child(2){-ms-transform: translate(0,-20%) scale(0.7,0.7);-webkit-transform: translate(0,-20%) scale(0.7,0.7);transform: translate(0,-20%) scale(0.7,0.7); }		
+.qq:hover img:nth-child(3){-ms-transform: scale(0.9,0.9) ; -webkit-transform: scale(0.9,0.9); transform: scale(0.9,0.9); }		
+.qq:hover img:nth-child(4){-ms-transform: translate(0,20%) scale(1.1,1.1); -webkit-transform: translate(0,20%) scale(1.1,1.1);  transform: translate(0,20%) scale(1.1,1.1);  }		
+
+.bilibili{-webkit-perspective: 500px;perspective: 500px;}	
+.bilibili:hover img:nth-child(1){-ms-transform: translate(0,75%) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(0,75%)  scale(0.7,0.7) rotateX(10deg);  transform: translate(0,75%)  scale(0.7,0.7) rotateX(10deg);}	
+.bilibili:hover img:nth-child(2){-ms-transform: translate(72%,75%) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(72%,75%)  scale(0.7,0.7) rotateX(10deg);  transform: translate(72%,75%)  scale(0.7,0.7) rotateX(10deg);}		
+.bilibili:hover img:nth-child(3){-ms-transform: translate(-72%,75%) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(-72%,75%)  scale(0.7,0.7) rotateX(10deg);  transform: translate(-72%,75%)  scale(0.7,0.7) rotateX(10deg);}	
+.bilibili:hover img:nth-child(4){-ms-transform: translate(-72%,0) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(-72%,0)  scale(0.7,0.7) rotateX(10deg);  transform: translate(-72%,0)  scale(0.7,0.7) rotateX(10deg); }		
+.bilibili:hover img:nth-child(5){-ms-transform: translate(72%,0) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(72%,0)  scale(0.7,0.7) rotateX(10deg);  transform: translate(72%,0)  scale(0.7,0.7) rotateX(10deg);}	
+.bilibili:hover img:nth-child(6){-ms-transform: translate(72%,-70%) scale(0.7,0.7) rotateX(10deg);-webkit-transform: translate(72%,-70%)  scale(0.7,0.7) rotateX(10deg);  transform: translate(72%,-70%)  scale(0.7,0.7) rotateX(10deg); }	
+.bilibili:hover img:nth-child(7){-ms-transform: translate(-72%,-70%)  scale(0.7,0.7) rotateX(10deg);  -webkit-transform: translate(-72%,-70%)  scale(0.7,0.7) rotateX(10deg);  transform: translate(-72%,-70%)  scale(0.7,0.7) rotateX(10deg); }		
+.bilibili:hover img:nth-child(8){-ms-transform: translate(0,-70%) scale(0.7,0.7) rotateX(10deg); -webkit-transform: translate(0,-70%) scale(0.7,0.7) rotateX(10deg);transform: translate(0,-70%) scale(0.7,0.7) rotateX(10deg);}	
+.bilibili:hover img:nth-child(9){-ms-transform: scale(0.7,0.7) rotateX(10deg); -webkit-transform:scale(0.7,0.7) rotateX(10deg);transform: scale(0.7,0.7) rotateX(10deg); }	
