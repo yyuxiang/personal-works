@@ -35,13 +35,13 @@ window.onload=function(){
 					var oLi=document.createElement('li');
 					switch (i){
 						case 0:
-							oLi.innerHTML=arr[0].date;
+							oLi.innerHTML=json.city;
 							break;
 						case 1:
-							oLi.innerHTML=arr[0].weather;
+							oLi.innerHTML=arr[0].date;
 							break;
 						case 2:
-							oLi.innerHTML=arr[0].wind;
+							oLi.innerHTML=arr[0].weather;
 							break;
 						case 3:
 							oLi.innerHTML=arr[0].temp;
@@ -109,6 +109,11 @@ window.onload=function(){
 					move(oMainCon,{top:-index*aDiv[0].offsetHeight});
 				};
 			})(i);
+		}
+		
+//		判断浏览器
+		if(window.navigator.userAgent.indexOf('Trident')!=-1){
+			alert('本站部分作品效果不兼容此浏览器，想获得更好的视觉体验，请使用Chrome浏览器，谢谢');
 		}
 };
 	//	技能掌握图解

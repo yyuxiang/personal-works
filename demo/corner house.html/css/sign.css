@@ -1,0 +1,111 @@
+.main{ width: 1200px; margin: 50px auto;}
+.slidebar{ border: 3px solid #e6e6e6; padding: 30px 0;}
+.slidebar .sign{ width: 462px; float: left; padding-top: 30px; padding-left: 70px; padding-bottom: 50px; border-right: 1px solid #ddd; padding-right: 150px;}
+.slidebar .sign .menu{ font-size: 0; text-align: center; border-bottom: 1px solid #eee;}
+.slidebar .sign .menu li{ display: inline-block; font: ; width: 50%; border-bottom: 2px solid #fff;}
+.slidebar .sign .menu li a{ font: 21px/32px "microsoft yahei"; color: #333;}
+.slidebar .sign .menu li.cur{ border-bottom-color: #E85041;}
+.slidebar .sign .menu li.cur a{ color: #E85041;}
+.slidebar .sign .login{ margin-left: 40px; margin-top: 30px;}
+.slidebar .sign .login li{ height: 55px; width: 363px; font-size: 0; border: 1px solid #ddd; border-bottom: none;}
+.slidebar .sign .login li:last-child{ border-bottom: 1px solid #ddd;}
+.slidebar .sign .login li span{ display: inline-block; width: 30%; font: 14px/55px "microsoft yahei"; color: #333; text-align: left; text-indent: 1em; vertical-align: middle;}
+.slidebar .sign .login li .text{ width: 70%; border: none; background: #fff; font: 14px/55px "microsoft yahei"; color: #666; outline: medium; vertical-align: middle;}
+.slidebar .sign .login li .yzm{ width: 40%; border: none; background: #fff; font: 14px/55px "microsoft yahei"; color: #666; outline: medium;vertical-align: middle;}
+.slidebar .sign .login li .btny{ font: 12px/34px "microsoft yahei"; color: #999; margin-left: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); background: none; width: 26%; cursor: pointer; border-radius: 4px;vertical-align: middle;}
+.slidebar .sign .login li .yzm1{ width: 20%; border: none; background: #fff; font: 14px/55px "microsoft yahei"; color: #666; outline: medium; vertical-align: middle; border-right: 1px solid #ddd;}
+.slidebar .sign .login li em{ vertical-align: middle; display: inline-block; width: 40%;}
+.slidebar .sign .login li em img{ margin-left: 8px; vertical-align: middle;}
+.slidebar .sign .login li em a{ font: 12px/24px "microsoft yahei"; color: #E85041; margin-left: 5px; vertical-align: middle;}
+.slidebar .sign .login .memory{ font: 13px/40px "microsoft yahei"; color: #E85041;}
+.slidebar .sign .login .memory .check{ vertical-align: middle; width: 13px; height: 13px; margin-right: 8px; margin-top: -2px;}
+.slidebar .sign .login .memory1{ font: 13px/40px "microsoft yahei"; color: #333;}
+.slidebar .sign .login .memory1 .check{ vertical-align: middle; width: 13px; height: 13px; margin-right: 8px; margin-top: -2px;}
+.slidebar .sign .login .memory1 a{ color: #E85041;}
+.slidebar .sign .login .btn{ display: block; width: 366px; height: 49px; font: 19px/49px "microsoft yahei"; color: #fff; border: none; border-radius: 4px; background: #E85041;}
+.slidebar .sign .login .zhuce{ width: 366px; overflow: hidden;}
+.slidebar .sign .login .zhuce a{ font: 14px/32px "microsoft yahei";}
+.slidebar .sign .login .zhuce a.al{ float: left; color: #E85041;}
+.slidebar .sign .login .zhuce a.ar{ float: right; color: #666;}
+.slidebar .weixin{ width: 235px; float: left; margin-left: 50px; padding-top: 80px;}
+.slidebar .weixin p{ font: 14px/24px "microsoft yahei"; color: #666; text-align: center; border-bottom: 1px dotted #ddd;}
+.slidebar .weixin p a{ color: #E85041;}
+.slidebar .weixin .box{ text-align: center; margin-top: 20px;}
+.slidebar .weixin .box h4{ font: 16px/32px "microsoft yahei"; color: #333;}
+.slidebar .weixin .box img{ display: inline-block; width: 160px; height: 160px; background: #333;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.main{ width: 98%; margin: 50px auto;}
+	.slidebar .sign{ width: 44%; float: left; padding-top: 30px; padding-left: 8%; padding-bottom: 50px; border-right: 1px solid #ddd; padding-right: 10%;}
+	
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+	.main{ width: 98%; margin: 50px auto;}
+	.slidebar{ border: 3px solid #e6e6e6; padding: 30px 0;}
+	.slidebar .sign{ width: 55%; margin: 0 auto; float: none; padding-top: 30px; padding-left: 0; padding-bottom: 50px; border-right: none; padding-right: 0;}
+	.slidebar .sign .menu{ font-size: 0; text-align: center; border-bottom: 1px solid #eee;}
+	.slidebar .sign .menu li{ display: inline-block; font: ; width: 50%; border-bottom: 2px solid #fff;}
+	.slidebar .sign .menu li a{ font: 21px/32px "microsoft yahei"; color: #333;}
+	.slidebar .sign .menu li.cur{ border-bottom-color: #E85041;}
+	.slidebar .sign .menu li.cur a{ color: #E85041;}
+	.slidebar .sign .login{ margin-left: 0; margin-top: 30px;}
+	.slidebar .sign .login li{ height: 55px; width: 99%; font-size: 0; border: 1px solid #ddd;}
+	.slidebar .sign .login li:first-child{ border-bottom: none;}
+	.slidebar .sign .login li span{ display: inline-block; width: 30%; font: 17px/55px "microsoft yahei"; color: #333; text-align: center;}
+	.slidebar .sign .login li .text{ width: 70%; border: none; background: #fff; font: 17px/55px "microsoft yahei"; color: #666; outline: medium;}
+	.slidebar .sign .login li .yzm1{ width: 30%; border: none; background: #fff; font: 14px/55px "microsoft yahei"; color: #666; outline: medium; vertical-align: middle; border-right: 1px solid #ddd;}
+	.slidebar .sign .login li em{ vertical-align: middle; display: inline-block; width: 35%;}
+	.slidebar .sign .login .memory{ font: 17px/40px "microsoft yahei"; color: #E85041;}
+	.slidebar .sign .login .memory .check{ vertical-align: middle; width: 17px; height: 17px; margin-right: 8px; margin-top: -2px;}
+	.slidebar .sign .login .btn{ display: block; width: 100%; height: 49px; font: 19px/49px "microsoft yahei"; color: #fff; border: none; border-radius: 4px; background: #E85041;}
+	.slidebar .sign .login .zhuce{ width: 100%; overflow: hidden;}
+	.slidebar .sign .login .zhuce a{ font: 14px/32px "microsoft yahei";}
+	.slidebar .sign .login .zhuce a.al{ float: left; color: #E85041;}
+	.slidebar .sign .login .zhuce a.ar{ float: right; color: #666;}
+	.slidebar .weixin{ width: 100%; float: none; margin-left: 0; padding-top: 40px;}
+	.slidebar .weixin p{ font: 14px/24px "microsoft yahei"; color: #666; text-align: center; border-bottom: 1px dotted #ddd;}
+	.slidebar .weixin p a{ color: #E85041;}
+	.slidebar .weixin .box{ text-align: center; margin-top: 20px;}
+	.slidebar .weixin .box h4{ font: 16px/32px "microsoft yahei"; color: #333;}
+	.slidebar .weixin .box img{ display: inline-block; width: 160px; height: 160px; background: #333;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 10px auto;}
+	.slidebar{ border: none; padding: 10px 0;}
+	.slidebar .sign{ width: 100%; margin: 0 auto; float: none; padding-top: 0px; padding-left: 0; padding-bottom: 20px; border-right: none; padding-right: 0;}
+	.slidebar .sign .menu{ font-size: 0; text-align: center; border-bottom: 1px solid #eee;}
+	.slidebar .sign .menu li{ display: inline-block; font: ; width: 50%; border-bottom: 2px solid #fff;}
+	.slidebar .sign .menu li a{ font: 16px/32px "microsoft yahei"; color: #333;}
+	.slidebar .sign .menu li.cur{ border-bottom-color: #E85041;}
+	.slidebar .sign .menu li.cur a{ color: #E85041;}
+	.slidebar .sign .login{ margin-left: 0; margin-top: 30px;}
+	.slidebar .sign .login li{ height: 35px; width: 99%; font-size: 0; }
+	.slidebar .sign .login li span{ display: inline-block; width: 30%; font: 14px/35px "microsoft yahei"; color: #333; text-align: center;  text-indent: 0.2em;}
+	.slidebar .sign .login li .text{ width: 70%; border: none; background: #fff; font: 14px/35px "microsoft yahei"; color: #666; outline: medium;}
+	.slidebar .sign .login li .yzm{ width: 40%; border: none; background: #fff; font: 14px/35px "microsoft yahei"; color: #666; outline: medium;vertical-align: middle;}
+	.slidebar .sign .login li .btny{ font: 12px/30px "microsoft yahei"; color: #999; margin-left: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); background: none; width: 28%; cursor: pointer; border-radius: 4px;vertical-align: middle;}
+	.slidebar .sign .login li .yzm1{ width: 28%; border: none; background: #fff; font: 14px/35px "microsoft yahei"; color: #666; outline: medium; vertical-align: middle; border-right: 1px solid #ddd;}
+	.slidebar .sign .login li em{ vertical-align: middle; display: inline-block; width: 40%;}
+	.slidebar .sign .login li em img{ margin-left: 8px; height: 30px; display: inline-block; vertical-align: middle;}
+	.slidebar .sign .login li em a{ font: 12px/24px "microsoft yahei"; color: #E85041; margin-left: 5px; vertical-align: middle;}
+	.slidebar .sign .login .memory{ font: 13px/40px "microsoft yahei"; color: #E85041;}
+	.slidebar .sign .login .memory .check{ vertical-align: middle; width: 13px; height: 13px; margin-right: 8px; margin-top: -2px;}
+	.slidebar .sign .login .memory1{ font: 13px/40px "microsoft yahei"; color: #333;}
+	.slidebar .sign .login .memory1 .check{ vertical-align: middle; width: 13px; height: 13px; margin-right: 8px; margin-top: -2px;}
+	.slidebar .sign .login .memory1 a{ color: #E85041;}
+	.slidebar .sign .login .btn{ display: block; width: 100%; height: 35px; font: 14px/35px "microsoft yahei"; color: #fff; border: none; border-radius: 4px; background: #E85041;}
+	.slidebar .sign .login .zhuce{ width: 100%; overflow: hidden;}
+	.slidebar .sign .login .zhuce a{ font: 14px/32px "microsoft yahei";}
+	.slidebar .sign .login .zhuce a.al{ float: left; color: #E85041;}
+	.slidebar .sign .login .zhuce a.ar{ float: right; color: #666;}
+	.slidebar .weixin{ width: 100%; float: none; margin-left: 0; padding-top: 0px;}
+	.slidebar .weixin p{display: none;}
+	.slidebar .weixin .box{ text-align: center; margin-top: 20px;}
+	.slidebar .weixin .box h4{ font: 16px/32px "microsoft yahei"; color: #333;}
+	.slidebar .weixin .box img{ display: inline-block; width: 160px; height: 160px; background: #333;}
+}

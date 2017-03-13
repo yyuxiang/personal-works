@@ -95,7 +95,7 @@ function jsonp(options){
         clearTimeout(timer);
         options.success && options.success(json);//数据回来了
         //清理操作
-        document.getElementsByTagName('head')[0].removeChild(oSc);//用过的script标签，清除
+        document.body.removeChild(oSc);//用过的script标签，清除
         window[options.data[options.cbKey]]=null;//用过的全局函数清空
     };
     //整理data

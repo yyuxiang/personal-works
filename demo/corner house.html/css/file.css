@@ -1,0 +1,124 @@
+.main{ width: 1200px; margin: 20px auto;}
+.main .menu{ width: 172px; height: 552px; background: #f1f0ef; float: left;}
+.main .menu .sign{ font-size: 0; text-align: center; padding: 20px 0;}
+.main .menu .sign .pic{ vertical-align: middle; display: inline-block;}
+.main .menu .sign .txt{ display: inline-block; text-align: left; vertical-align: middle; margin-left: 10px;}
+.main .menu .sign .txt p{ font: 12px/18px "microsoft yahei"; color: #333;}
+.main .menu .urse-center{ border: 1px solid #ddd; margin-left: 0; height: 48px;}
+.main .menu .urse-center a{ display: block; font: 14px/48px "microsoft yahei"; color: #333;padding-left: 20px;}
+.main .menu .urse-center .cur{ border-left: 3px solid #D9C9BC; background: #fff;  }
+.main .menu .menu1{ margin-top: 20px;}
+.main .menu .menu1 li{ margin-bottom: 2px;}
+.main .menu .menu1 li.cur,.main .menu .menu2 li.cur{ border: 1px solid #ddd; border-left: 3px solid #D9C9BC; background: #fff; }
+.main .menu .menu1 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 20px; display: block;}
+.main .menu .menu2{ margin: 20px 0 0; border-top: 1px solid #ddd; padding-top: 10px;}
+.main .menu .menu2 li{ margin-bottom: 2px;}
+.main .menu .menu2 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 20px; display: block;}
+
+.main .content{ width: 993px; float: right;}
+.main .content .title{ font: bold 16px/38px "microsoft yahei"; color: #333; background: #f1f0ef; padding-left: 15px;}
+.main .content .title .checkall{ margin-left: 10px; margin-right: 3px;}
+.main .content .title label{ color: #666; font-weight: 100; cursor: pointer;}
+.main .content .title .det{ color: #999; font-weight: 100; margin-left: 10px; cursor: pointer;}
+.main .content .product{ margin-top: 15px;}
+.main .content .product li{ width: 170px; float: left; margin: 0 14px 15px;}
+.main .content .product li .pic{ width: 168px; height: 168px; border: 1px solid #ddd;}
+.main .content .product li p{ font: 14px/21px "microsoft yahei"; color: #333; text-align: center; margin-top: 10px;}
+.main .content .product li p .check{ vertical-align: middle; margin-right: 3px; margin-top: -2px;}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ width: 18%; height: 552px; background: #f1f0ef; float: left;}
+.main .menu .sign{ font-size: 0; text-align: center; padding: 20px 0;}
+.main .menu .sign .pic{ vertical-align: middle; display: inline-block;}
+.main .menu .sign .txt{ display: inline-block; text-align: left; vertical-align: middle; margin-left: 10px;}
+.main .menu .sign .txt p{ font: 12px/18px "microsoft yahei"; color: #333;}
+.main .menu .urse-center{ border: 1px solid #ddd; margin-left: 0; height: 48px;}
+.main .menu .urse-center a{ display: block; font: 14px/48px "microsoft yahei"; color: #333;padding-left: 20px;}
+.main .menu .urse-center .cur{ border-left: 3px solid #D9C9BC; background: #fff;  }
+.main .menu .menu1{ margin-top: 20px;}
+.main .menu .menu1 li{ margin-bottom: 2px;}
+.main .menu .menu1 li.cur{ border: 1px solid #ddd; border-left: 3px solid #D9C9BC; background: #fff; }
+.main .menu .menu1 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 20px; display: block;}
+.main .menu .menu2{ margin: 20px 5px 0; border-top: 1px solid #ddd; padding-top: 10px;}
+.main .menu .menu2 li{ margin-bottom: 2px;}
+.main .menu .menu2 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 15px; display: block;}
+
+.main .content{ width: 80%; float: right;}
+.main .content .title{ font: bold 16px/38px "microsoft yahei"; color: #333; background: #f1f0ef; padding-left: 15px;}
+.main .content .title .checkall{ margin-left: 10px; margin-right: 3px;}
+.main .content .title label{ color: #666; font-weight: 100; cursor: pointer;}
+.main .content .title .det{ color: #999; font-weight: 100; margin-left: 10px; cursor: pointer;}
+.main .content .product{ margin-top: 15px;}
+.main .content .product li{ width: 23%; float: left; margin: 0 1% 10px;}
+.main .content .product li .pic{ width: 100%; height: auto; border: 1px solid #ddd;}
+.main .content .product li .pic img{ display: block; width: 100%;}
+.main .content .product li p{ font: 14px/21px "microsoft yahei"; color: #333; text-align: center; margin-top: 10px;}
+.main .content .product li p .check{ vertical-align: middle; margin-right: 3px; margin-top: -2px;}
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ width: 18%; height: 552px; background: #f1f0ef; float: left;}
+.main .menu .sign{ font-size: 0; text-align: center; padding: 20px 0;}
+.main .menu .sign .pic{ vertical-align: middle; display: inline-block;}
+.main .menu .sign .txt{ display: inline-block; text-align: left; vertical-align: middle; margin-left: 10px;}
+.main .menu .sign .txt p{ font: 12px/18px "microsoft yahei"; color: #333;}
+.main .menu .urse-center{ border: 1px solid #ddd; margin-left: 0; height: 48px;}
+.main .menu .urse-center a{ display: block; font: 14px/48px "microsoft yahei"; color: #333;padding-left: 20px;}
+.main .menu .urse-center .cur{ border-left: 3px solid #D9C9BC; background: #fff;  }
+.main .menu .menu1{ margin-top: 20px;}
+.main .menu .menu1 li{ margin-bottom: 2px;}
+.main .menu .menu1 li.cur{ border: 1px solid #ddd; border-left: 3px solid #D9C9BC; background: #fff; }
+.main .menu .menu1 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 20px; display: block;}
+.main .menu .menu2{ margin: 20px 5px 0; border-top: 1px solid #ddd; padding-top: 10px;}
+.main .menu .menu2 li{ margin-bottom: 2px;}
+.main .menu .menu2 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 15px; display: block;}
+
+.main .content{ width: 80%; float: right;}
+.main .content .title{ font: bold 16px/38px "microsoft yahei"; color: #333; background: #f1f0ef; padding-left: 15px;}
+.main .content .title .checkall{ margin-left: 10px; margin-right: 3px;}
+.main .content .title label{ color: #666; font-weight: 100; cursor: pointer;}
+.main .content .title .det{ color: #999; font-weight: 100; margin-left: 10px; cursor: pointer;}
+.main .content .product{ margin-top: 15px;}
+.main .content .product li{ width: 23%; float: left; margin: 0 1% 10px;}
+.main .content .product li .pic{ width: 100%; height: auto; border: 1px solid #ddd;}
+.main .content .product li .pic img{ display: block; width: 100%;}
+.main .content .product li p{ font: 14px/21px "microsoft yahei"; color: #333; text-align: center; margin-top: 10px;}
+.main .content .product li p .check{ vertical-align: middle; margin-right: 3px; margin-top: -2px;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ width: 100%; height: auto; margin-bottom: 20px; padding-bottom: 8px; background: none; border-bottom: 1px dotted #ddd; float: none;}
+.main .menu .sign{ font-size: 0; text-align: left; padding: 12px 0 12px 10px; background: #F1F0EF;}
+.main .menu .sign .pic{ vertical-align: middle; display: inline-block;}
+.main .menu .sign .txt{ display: inline-block; text-align: left; vertical-align: middle; margin-left: 10px;}
+.main .menu .sign .txt p{ font: 12px/18px "microsoft yahei"; color: #333;}
+.main .menu .urse-center{ border: 1px solid #ddd; margin-left: 0; height: 48px;}
+.main .menu .urse-center a{ display: block; font: 14px/48px "microsoft yahei"; color: #333;padding-left: 20px;}
+.main .menu .urse-center .cur{ border-left: 3px solid #D9C9BC; background: #fff;  }
+.main .menu .menu1{ margin-top: 20px;}
+.main .menu .menu1 li{ margin-bottom: 2px;}
+.main .menu .menu1 li.cur{ border: 1px solid #ddd; border-left: 3px solid #D9C9BC; background: #fff; }
+.main .menu .menu1 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 20px; display: block;}
+.main .menu .menu2{ margin: 20px 5px 0; border-top: 1px solid #ddd; padding-top: 10px;}
+.main .menu .menu2 li{ margin-bottom: 2px;}
+.main .menu .menu2 li a{ font: 14px/28px "microsoft yahei"; color: #333; padding-left: 15px; display: block;}
+
+.main .content{ width: 100%; float: none;}
+.main .content .title{ font: 14px/32px "microsoft yahei"; color: #333; background: #f1f0ef; padding-left: 15px;}
+.main .content .title .checkall{ margin-left: 10px; margin-right: 3px; vertical-align: middle; margin-top: -2px;}
+.main .content .title label{ color: #666; font-weight: 100; cursor: pointer;}
+.main .content .title .det{ color: #999; font-weight: 100; margin-left: 10px; cursor: pointer;}
+.main .content .product{ margin-top: 15px;}
+.main .content .product li{ width: 48%; float: left; margin: 0 1% 10px;}
+.main .content .product li .pic{ width: 100%; height: auto; border: 1px solid #ddd;}
+.main .content .product li .pic img{ display: block; width: 100%;}
+.main .content .product li p{ font: 12px/21px "microsoft yahei"; color: #333; text-align: center; margin-top: 10px;}
+.main .content .product li p .check{ vertical-align: middle; margin-right: 3px; margin-top: -2px;}
+}

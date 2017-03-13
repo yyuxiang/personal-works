@@ -1,0 +1,124 @@
+.main{ width: 1200px; margin: 20px auto; }
+.main .menu1{ font-size: 0;}
+.main .menu1 span{ display: inline-block; font: 18px/37px "microsoft yahei"; color: #fff; background: #E85041; padding: 0 20px 0 10px;}
+.main .menu1 span img{ vertical-align: middle; margin-right: 5px;}
+.main .menu1 ul{ display: inline-block;}
+.main .menu1 ul li{ display: inline-block; background: #f3efe6; margin-left: 8px; }
+.main .menu1 ul li a{ display: block; font: 14px/37px "microsoft yahei"; color: #333; padding: 0 20px;}
+.main .menu1 ul li.cur{ background: #E85041;}
+.main .menu1 ul li.cur a{ color: #fff;}
+.main .case{ margin-top: 20px;}
+.main .case li{ width: 288px; float: left; margin: 0 5px 10px;}
+.main .case li .pic{ width: 288px; height: 288px; margin-bottom: 10px;  position: relative;}
+.main .case li p{ font: 18px/32px "microsoft yahei"; color: #333; text-align: center; }
+.main .case li .btn{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: rgba(232,76,61,0.67) url(../images/29-29.png) center center no-repeat; font: 18px/228px "microsoft yahei"; cursor: pointer; color: #fff; text-align: center; display: none;}
+.main .case li:hover .btn{ display: block;}
+
+.fixed-box{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 111; display: none;}
+.fixed-box .content{ width: 30%; background: #fff; position: absolute; left: 35%; top: 20%; padding: 20px 0;}
+.fixed-box img{ width: 90%; display: block; margin: 0 auto; position: relative; top: 23%; }
+.fixed-box p{ font: 18px/40px "microsoft yahei"; color: #fff; background: #000; position: absolute; bottom: -40px; width: 100%; text-align: center;}
+.fixed-box .close{ position: absolute; right: 5px; top: -10px; font: 31px/50px arial; color: #333; cursor: pointer; font-weight: 100; text-align: center;}
+
+.pageinfo{ font-size: 0; margin: 30px 0; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 18px/32px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 15px ;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ margin-left: 150px; font: 14px/32px "microsoft yahei"; color: #333;}
+.pageinfo .page{ width: 35px; height: 32px; border: 1px solid #ddd; color: #666; text-align: center;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.main{ width: 98%; margin: 20px auto;}
+	.main .menu1{ font-size: 0;}
+	.main .menu1 span{ display: inline-block; font: 18px/37px "microsoft yahei"; color: #fff; background: #E85041; padding: 0 20px 0 10px;}
+	.main .menu1 span img{ vertical-align: middle; margin-right: 5px;}
+	.main .menu1 ul{ display: inline-block;}
+	.main .menu1 ul li{ display: inline-block; background: #f3efe6; margin-left: 8px; }
+	.main .menu1 ul li a{ display: block; font: 14px/37px "microsoft yahei"; color: #333; padding: 0 20px;}
+	.main .menu1 ul li.cur{ background: #E85041;}
+	.main .menu1 ul li.cur a{ color: #fff;}
+	
+	.main .case{ margin-top: 20px;}
+	.main .case li{ width: 30%; float: left; margin: 0 1.5% 10px;}
+	.main .case li .pic{ width: 100%; height: auto; margin-bottom: 10px;  position: relative;}
+	.main .case li .pic img{ display: block; width: 100%;}
+	.main .case li p{ font: 18px/32px "microsoft yahei"; color: #333; text-align: center; }
+	.main .case li .btn{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: rgba(232,76,61,0.67) url(../images/29-29.png) center center no-repeat; font: 18px/228px "microsoft yahei"; cursor: pointer; color: #fff; text-align: center; display: none;}
+	.main .case li:hover .btn{ display: block;}
+	
+	.fixed-box{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 111; display: none;}
+	.fixed-box .content{ width: 50%; background: #fff; position: absolute; left: 25%; top: 20%; padding: 20px 0;}
+	.fixed-box img{ width: 90%; display: block; margin: 0 auto; position: relative; top: 23%; }
+	.fixed-box p{ font: 18px/40px "microsoft yahei"; color: #fff; background: #000; position: absolute; bottom: -40px; width: 100%; text-align: center;}
+	.fixed-box .close{ position: absolute; right: 5px; top: -10px; font: 31px/50px arial; color: #333; cursor: pointer; font-weight: 100; text-align: center;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+	.pageinfo a,.pageinfo span{ font: 15px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 11px;}
+	.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+	.pageinfo em{ margin-left: 150px; font: 14px/26px "microsoft yahei"; color: #333;}
+	.pageinfo .page{ width: 30px; height: 26px; border: 1px solid #ddd; color: #666; text-align: center;}
+	
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; margin: 20px auto;}
+	.main .menu1{ font-size: 0;}
+	.main .menu1 span{ display: inline-block; font: 18px/37px "microsoft yahei"; color: #fff; background: #E85041; padding: 0 20px 0 10px;}
+	.main .menu1 span img{ vertical-align: middle; margin-right: 5px;}
+	.main .menu1 ul{ display: inline-block;}
+	.main .menu1 ul li{ display: inline-block; background: #f3efe6; margin-left: 8px; }
+	.main .menu1 ul li a{ display: block; font: 14px/37px "microsoft yahei"; color: #333; padding: 0 20px;}
+	.main .menu1 ul li.cur{ background: #E85041;}
+	.main .menu1 ul li.cur a{ color: #fff;}
+	
+	.main .case{ margin-top: 20px;}
+	.main .case li{ width: 30%; float: left; margin: 0 1.5% 10px;}
+	.main .case li .pic{ width: 100%; height: auto; margin-bottom: 10px;  position: relative;}
+	.main .case li .pic img{ display: block; width: 100%;}
+	.main .case li p{ font: 13px/22px "microsoft yahei"; color: #333; text-align: center; }
+	.main .case li .btn{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: rgba(232,76,61,0.67) url(../images/29-29.png) center center no-repeat; font: 18px/228px "microsoft yahei"; cursor: pointer; color: #fff; text-align: center; display: none;}
+	.main .case li:hover .btn{ display: block;}
+	
+	.fixed-box{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 111; display: none;}
+	.fixed-box .content{ width: 50%; background: #fff; position: absolute; left: 25%; top: 20%; padding: 20px 0;}
+	.fixed-box img{ width: 90%; display: block; margin: 0 auto; position: relative; top: 23%; }
+	.fixed-box p{ font: 18px/40px "microsoft yahei"; color: #fff; background: #000; position: absolute; bottom: -40px; width: 100%; text-align: center;}
+	.fixed-box .close{ position: absolute; right: 3px; top: -14px; font: 31px/50px arial; color: #333; cursor: pointer; font-weight: 100; text-align: center;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+	.pageinfo a,.pageinfo span{ font: 15px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 11px;}
+	.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+	.pageinfo em{ margin-left: 150px; font: 14px/26px "microsoft yahei"; color: #333;}
+	.pageinfo .page{ width: 30px; height: 26px; border: 1px solid #ddd; color: #666; text-align: center;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 20px auto;}
+	.main .menu1{ font-size: 0;}
+	.main .menu1 span{ display: inline-block; font: 12px/28px "microsoft yahei"; color: #fff; background: #E85041; padding: 0 5px;}
+	.main .menu1 span img{ vertical-align: middle; margin-right: 5px;}
+	.main .menu1 ul{ display: inline-block; margin-top: 8px;}
+	.main .menu1 ul li{ display: inline-block; background: #f3efe6; margin-left: 0; margin-right: 8px; }
+	.main .menu1 ul li a{ display: block; font: 12px/28px "microsoft yahei"; color: #333; padding: 0 5px;}
+	.main .menu1 ul li.cur{ background: #E85041;}
+	.main .menu1 ul li.cur a{ color: #fff;}
+	
+	.main .case{ margin-top: 20px;}
+	.main .case li{ width: 48%; float: left; margin: 0 1% 10px;}
+	.main .case li .pic{ width: 100%; height: auto; margin-bottom: 10px;  position: relative;}
+	.main .case li .pic img{ display: block; width: 100%;}
+	.main .case li p{ font: 13px/22px "microsoft yahei"; color: #333; text-align: center; }
+	.main .case li .btn{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: rgba(232,76,61,0.67) url(../images/29-29.png) center center no-repeat; font: 18px/228px "microsoft yahei"; cursor: pointer; color: #fff; text-align: center; display: none;}
+	.main .case li:hover .btn{ display: block;}
+	
+	.fixed-box{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 111; display: none;}
+	.fixed-box .content{ width: 90%; background: #fff; position: absolute; left: 5%; top: 20%; padding: 20px 0;}
+	.fixed-box img{ width: 90%; display: block; margin: 0 auto; position: relative; top: 23%; }
+	.fixed-box p{ font: 12px/28px "microsoft yahei"; color: #fff; background: #000; position: absolute; bottom: -28px; width: 100%; text-align: center;}
+	.fixed-box .close{ position: absolute; right: 3px; top: -14px; font: 21px/50px arial; color: #333; cursor: pointer; font-weight: 100; text-align: center;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 13px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 8px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ display: none;}
+}

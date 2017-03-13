@@ -1,0 +1,59 @@
+.swiper-container-a .swiper-pagination-a .swiper-pagination-bullet{ width: 14px; height: 14px; border: 1px solid #fff; background: none; opacity: 1;}
+.swiper-container-a .swiper-pagination-a .swiper-pagination-bullet-active{ background: #fff;}
+.swiper-container-a .swiper-wrapper img{ display: block; width: 100%;}
+
+.main{ width: 1200px; margin: 10px auto;}
+.content1{ width: 100%; overflow: hidden; margin-bottom: 10px;}
+.content1 li{ width: 595px; float: left; border: 1px solid #999;}
+.content1 li:nth-child(2n){ float: right;}
+.content1 li img{ display: block; width: 100%;}
+
+.content2{ overflow: hidden; margin-bottom: 10px;}
+.content2 dt{ width: 794px; float: left; border: 1px solid #999;}
+.content2 dd{ float: right; width: 394px; border: 1px solid #999;}
+.content2 dl img{ display: block; width: 100%;}
+
+.content3{ overflow: hidden; margin-bottom: 10px;}
+.content3 dt{ width: 394px; float: left; border: 1px solid #999;}
+.content3 dd{ width: 794px; float: right; border: 1px solid #999;}
+.content3 dl img{ display: block; width: 100%;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.main{ width: 98%; }
+	.content1{ width: 100%; }
+	.content1 li{ width: 49%;   }
+	
+	.content2 dt{ width: 65.5%; }
+	.content2 dd{ width: 32.5%; }
+	
+	.content3 dt{ width: 32.5%; }
+	.content3 dd{ width: 65.5%; }
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; }
+	.content1{ width: 100%; }
+	.content1 li{ width: 49%;   }
+	
+	.content2 dt{ width: 65.5%; }
+	.content2 dd{ width: 32.5%; }
+	
+	.content3 dt{ width: 32.5%; }
+	.content3 dd{ width: 65.5%; }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	
+	.main{ width: 98%; }
+	.content1{ width: 100%; }
+	.content1 li{ width: 99%; margin-top: 10px;   }
+	
+	.content2 dt{ width: 99%; margin-bottom: 10px; }
+	.content2 dd{ width: 99%; }
+	
+	.content3 dt{ width: 99%; margin-bottom: 10px; }
+	.content3 dd{ width: 99%; }
+	
+}

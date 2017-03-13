@@ -1,0 +1,217 @@
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active{ background: #E85041;}
+.swiper-container .swiper-wrapper img{ display: block; width: 100%;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .menu{ font-size: 0;}
+
+.main .menu ul{ display: inline-block;}
+.main .menu ul li{ display: inline-block; width: 195px; height: 37px; margin-right: 5px; background: #f3efe6; font: 14px/37px "microsoft yahei"; color: #333;}
+.main .menu ul li.cur{ background: #E85041; }
+.main .menu ul li a{ display: block; text-align: center; color: #333;}
+.main .menu ul li.cur a{ color: #fff;}
+
+.main .slidebar{ margin-top: 20px;}
+.main .slidebar_l{ width: 774px; float: left;}
+.main .slidebar_l .list{}
+.main .slidebar_l li{ padding: 20px 0 45px; border-bottom: 1px solid #ddd; position: relative;}
+.main .slidebar_l li h3{ font: 24px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .date{ font: 14px/26px "microsoft yahei"; color: #999; margin: 20px 0 0;}
+.main .slidebar_l li img{ display: block; margin: 20px auto;}
+.main .slidebar_l li p{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .more{ width: 77px; height: 32px; font: 14px/32px "microsoft yahei"; color: #fff; background: #E85041; position: absolute; bottom: 10px; right: 20px; text-align: center;}
+.main .slidebar_l li .more:hover{ background: #A57E61;}
+
+.main .slidebar_l .content{ }
+.main .slidebar_l .content .title{ font: 24px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .bdshare{ overflow: hidden; border-bottom: 1px solid #ddd; padding: 10px 0;}
+.main .slidebar_l .content .bdshare .date{ font: 14px/26px "microsoft yahei"; color: #999; float: left;}
+.main .slidebar_l .content .bdshare .share1{ float: right;}
+.main .slidebar_l .content .textCont{ margin-top: 20px;}
+.main .slidebar_l .content .textCont p{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .textCont h3{ font: bold 16px/26px "microsoft yahei"; color: #333; margin: 10px 0;}
+.main .slidebar_l .content .textCont img{ display: block; margin: 10px auto;}
+
+.main .slidebar_r{ width: 355px; float: right; margin-top: 15px;}
+.main .slidebar_r .newlist{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 20px 0; margin-top: 20px;}
+.main .slidebar_r .newlist h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_r .newlist ul{ margin-top: 12px;}
+.main .slidebar_r .newlist li a{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/6-6-1.png) left center no-repeat; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding-left: 10px;}
+.main .slidebar_r .newlist li a:hover{ color: #E85041;}
+.main .slidebar_r .weixin{ font-size: 0; padding: 20px 0; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .weixin .w{ vertical-align: middle; display: inline-block;}
+.main .slidebar_r .weixin .t{ display: inline-block; vertical-align: middle;}
+.main .slidebar_r .weixin .t p{ font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+.main .slidebar_r .like{ margin-top: 20px;}
+.main .slidebar_r .like h3{ font: 18px/32px "microsoft yahei"; color: #333;}
+.main .slidebar_r .listpic{ font-size: 0; margin-top: 20px; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .listpic li{ border-top: 1px solid #ddd; padding: 20px 0;}
+.main .slidebar_r .listpic li .p{ display: inline-block; vertical-align: top;}
+.main .slidebar_r .listpic li .p img{ display: block;}
+.main .slidebar_r .listpic li .t{ display: inline-block; vertical-align: bottom; font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+
+.pageinfo{ font-size: 0; margin: 30px 0; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 18px/32px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 15px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ margin-left: 150px; font: 14px/32px "microsoft yahei"; color: #333;}
+.pageinfo .page{ width: 35px; height: 32px; border: 1px solid #ddd; color: #666; text-align: center;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ font-size: 0; width: 100%;}
+.main .menu ul{ display: block;}
+.main .menu ul li{ display: inline-block; width: 16%; height: 37px; margin-right: 5px; background: #f3efe6; font: 14px/37px "microsoft yahei"; color: #333;}
+.main .menu ul li.cur{ background: #E85041; }
+.main .menu ul li a{ display: block; text-align: center; color: #333;}
+.main .menu ul li.cur a{ color: #fff;}
+
+.main .slidebar{ margin-top: 20px;}
+.main .slidebar_l{ width: 60%; float: left;}
+.main .slidebar_l .list{}
+.main .slidebar_l li{ padding: 20px 0 45px; border-bottom: 1px solid #ddd; position: relative;}
+.main .slidebar_l li h3{ font: 20px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .date{ font: 14px/26px "microsoft yahei"; color: #999; margin: 20px 0 0;}
+.main .slidebar_l li img{ display: block; margin: 20px auto; width: 90%;}
+.main .slidebar_l li p{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .more{ width: 77px; height: 32px; font: 14px/32px "microsoft yahei"; color: #fff; background: #E85041; position: absolute; bottom: 10px; right: 20px; text-align: center;}
+
+.main .slidebar_l .content{ }
+.main .slidebar_l .content .title{ font: 21px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .bdshare{ overflow: hidden; border-bottom: 1px solid #ddd; padding: 10px 0;}
+.main .slidebar_l .content .bdshare .date{ font: 14px/26px "microsoft yahei"; color: #999; float: left;}
+.main .slidebar_l .content .bdshare .share1{ float: right;}
+.main .slidebar_l .content .textCont{ margin-top: 20px;}
+.main .slidebar_l .content .textCont p{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .textCont h3{ font: bold 16px/26px "microsoft yahei"; color: #333; margin: 10px 0;}
+.main .slidebar_l .content .textCont img{ display: block; width: 100%;}
+
+.main .slidebar_r{ width: 38%; float: right; margin-top: 15px;}
+.main .slidebar_r .newlist{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 20px 0; margin-top: 20px;}
+.main .slidebar_r .newlist h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_r .newlist ul{ margin-top: 12px;}
+.main .slidebar_r .newlist li a{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/6-6-1.png) left center no-repeat; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding-left: 10px;}
+.main .slidebar_r .weixin{ font-size: 0; padding: 20px 0; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .weixin .w{ vertical-align: middle; display: inline-block;}
+.main .slidebar_r .weixin .t{ display: inline-block; vertical-align: middle;}
+.main .slidebar_r .weixin .t p{ font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+.main .slidebar_r .like{ margin-top: 20px;}
+.main .slidebar_r .like h3{ font: 18px/32px "microsoft yahei"; color: #333;}
+.main .slidebar_r .like img{ display: block; width: 100%;}
+.main .slidebar_r .listpic{ font-size: 0; margin-top: 20px; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .listpic li{ border-top: 1px solid #ddd; padding: 20px 0;}
+.main .slidebar_r .listpic li .p{ display: inline-block; vertical-align: top;}
+.main .slidebar_r .listpic li .p img{ display: block; }
+.main .slidebar_r .listpic li .t{ display: inline-block; vertical-align: bottom; font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+
+.pageinfo{ font-size: 0; margin: 30px 0; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 16px/32px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 15px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ margin-left: 150px; font: 14px/32px "microsoft yahei"; color: #333;}
+.pageinfo .page{ width: 35px; height: 32px; border: 1px solid #ddd; color: #666; text-align: center;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ font-size: 0; width: 100%;}
+.main .menu ul{ display: block;}
+.main .menu ul li{ display: inline-block; width: 24%; height: 32px; margin-right: 1%; margin-bottom: 8px; background: #f3efe6; font: 12px/32px "microsoft yahei"; color: #333;}
+.main .menu ul li.cur{ background: #E85041; }
+.main .menu ul li a{ display: block; text-align: center; color: #333;}
+.main .menu ul li.cur a{ color: #fff;}
+
+.main .slidebar{ margin-top: 20px;}
+.main .slidebar_l{ width: 60%; float: left;}
+.main .slidebar_l .list{}
+.main .slidebar_l li{ padding: 20px 0 45px; border-bottom: 1px solid #ddd; position: relative;}
+.main .slidebar_l li h3{ font: 18px/21px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .date{ font: 14px/26px "microsoft yahei"; color: #999; margin: 20px 0 0;}
+.main .slidebar_l li img{ display: block; margin: 20px auto; width: 90%;}
+.main .slidebar_l li p{ font: 14px/21px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .more{ width: 77px; height: 32px; font: 12px/32px "microsoft yahei"; color: #fff; background: #E85041; position: absolute; bottom: 10px; right: 20px; text-align: center;}
+
+.main .slidebar_l .content{ }
+.main .slidebar_l .content .title{ font: 16px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .bdshare{ overflow: hidden; border-bottom: 1px solid #ddd; padding: 10px 0;}
+.main .slidebar_l .content .bdshare .date{ font: 14px/26px "microsoft yahei"; color: #999; float: left;}
+.main .slidebar_l .content .bdshare .share1{ float: right;}
+.main .slidebar_l .content .textCont{ margin-top: 20px;}
+.main .slidebar_l .content .textCont p{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .textCont h3{ font: bold 16px/26px "microsoft yahei"; color: #333; margin: 10px 0;}
+.main .slidebar_l .content .textCont img{ display: block; width: 100%;}
+
+.main .slidebar_r{ width: 38%; float: right; margin-top: 15px;}
+.main .slidebar_r .newlist{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 20px 0; margin-top: 20px;}
+.main .slidebar_r .newlist h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_r .newlist ul{ margin-top: 12px;}
+.main .slidebar_r .newlist li a{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/6-6-1.png) left center no-repeat; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding-left: 10px;}
+.main .slidebar_r .weixin{ font-size: 0; padding: 20px 0; border-bottom: 1px solid #ddd; text-align: center;}
+.main .slidebar_r .weixin .w{ vertical-align: middle; display: inline-block;}
+.main .slidebar_r .weixin .t{ display: inline-block; vertical-align: middle;}
+.main .slidebar_r .weixin .t p{ font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+.main .slidebar_r .like{ margin-top: 20px;}
+.main .slidebar_r .like h3{ font: 18px/32px "microsoft yahei"; color: #333;}
+.main .slidebar_r .like img{ display: block; width: 100%;}
+.main .slidebar_r .listpic{ font-size: 0; margin-top: 20px; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .listpic li{ border-top: 1px solid #ddd; padding: 20px 0;}
+.main .slidebar_r .listpic li .p{ display: block; margin-bottom: 10px;}
+.main .slidebar_r .listpic li .p img{ display: block; margin: 0 auto;}
+.main .slidebar_r .listpic li .t{ display: block; text-align: center; font: 14px/26px "microsoft yahei"; color: #333; margin-left: 12px;}
+
+.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+	.pageinfo a,.pageinfo span{ font: 15px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 11px;}
+	.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+	.pageinfo em{ margin-left: 150px; font: 14px/26px "microsoft yahei"; color: #333;}
+	.pageinfo .page{ width: 30px; height: 26px; border: 1px solid #ddd; color: #666; text-align: center;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .menu{ font-size: 0; width: 100%;}
+.main .menu ul{ display: block;}
+.main .menu ul li{ display: inline-block; width: 48%; height: 32px; margin-right: 1%; margin-left: 1%; margin-bottom: 8px; background: #f3efe6; font: 12px/32px "microsoft yahei"; color: #333;}
+.main .menu ul li.cur{ background: #E85041; }
+.main .menu ul li a{ display: block; text-align: center; color: #333;}
+.main .menu ul li.cur a{ color: #fff;}
+
+.main .slidebar{ margin-top: 20px;}
+.main .slidebar_l{ width: 100%; float: none;}
+.main .slidebar_l .list{}
+.main .slidebar_l li{ padding: 20px 0 45px; border-bottom: 1px solid #ddd; position: relative;}
+.main .slidebar_l li h3{ font: 14px/21px "microsoft yahei"; color: #333; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.main .slidebar_l li .date{ font: 12px/21px "microsoft yahei"; color: #999; margin: 5px 0 0;}
+.main .slidebar_l li img{ display: block; margin: 10px auto; width: 100%;}
+.main .slidebar_l li p{ font: 14px/21px "microsoft yahei"; color: #333;}
+.main .slidebar_l li .more{ width: 77px; height: 32px; font: 12px/32px "microsoft yahei"; color: #fff; background: #E85041; position: absolute; bottom: 10px; right: auto; left: 0; text-align: center;}
+
+.main .slidebar_l .content{ }
+.main .slidebar_l .content .title{ font: 14px/21px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .bdshare{ overflow: hidden; border-bottom: 1px solid #ddd; padding: 10px 0;}
+.main .slidebar_l .content .bdshare .date{ font: 12px/26px "microsoft yahei"; color: #999; float: none;}
+.main .slidebar_l .content .bdshare .share1{ float: none;}
+.main .slidebar_l .content .textCont{ margin-top: 20px;}
+.main .slidebar_l .content .textCont p{ font: 12px/21px "microsoft yahei"; color: #333;}
+.main .slidebar_l .content .textCont h3{ font: 14px/21px "microsoft yahei"; color: #333; margin: 10px 0;}
+.main .slidebar_l .content .textCont img{ display: block; width: 100%;}
+
+.main .slidebar_r{ width: 100%; float: none; margin-top: 15px;}
+.main .slidebar_r .newlist{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 20px 0; margin-top: 20px;}
+.main .slidebar_r .newlist h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+.main .slidebar_r .newlist ul{ margin-top: 12px;}
+.main .slidebar_r .newlist li a{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/6-6-1.png) left center no-repeat; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding-left: 10px;}
+.main .slidebar_r .weixin{ font-size: 0; padding: 20px 0; border-bottom: 1px solid #ddd; }
+.main .slidebar_r .weixin .w{ display:block;}
+.main .slidebar_r .weixin .t{ display: block; margin-top: 10px;}
+.main .slidebar_r .weixin .t p{ font: 12px/18px "microsoft yahei"; color: #333; margin-left: 0;}
+.main .slidebar_r .like{ margin-top: 20px;}
+.main .slidebar_r .like h3{ font: 14px/32px "microsoft yahei"; color: #333;}
+.main .slidebar_r .like img{ display: block; width: 100%;}
+.main .slidebar_r .listpic{ font-size: 0; margin-top: 20px; border-bottom: 1px solid #ddd;}
+.main .slidebar_r .listpic li{ border-top: 1px solid #ddd; padding: 20px 0;}
+.main .slidebar_r .listpic li .p{ display: inline-blockb; vertical-align: middle; width: 50%;}
+.main .slidebar_r .listpic li .p img{ display: block; 100%}
+.main .slidebar_r .listpic li .t{ display: inline-block; width: 48%; text-align: center; font: 12px/26px "microsoft yahei"; color: #333; margin-left: 2%; vertical-align: middle;}
+
+.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 13px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 8px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ display: none;}
+}

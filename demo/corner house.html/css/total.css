@@ -1,0 +1,120 @@
+.now{ width: 1200px; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 1200px; margin: 20px auto 0; font-size: 0;}
+.plan li{ display: inline-block; margin: 0 120px;}
+.plan li span{ font: 14px/22px "microsoft yahei"; color: #fff; background: #cdcdcd; border-radius: 50%; display: inline-block; width: 22px; text-align: center; margin-right: 15px;}
+.plan li i{ font: 14px/22px "microsoft yahei"; color: #999;}
+.plan li.cur span{ background: #E85041;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .title{ overflow: hidden; border-bottom: 1px solid #ddd;}
+.main .title h3{ font: 16px/40px "microsoft yahei"; color: #333; float: left;}
+.main .title .address{ float: right; font: 14px/40px "microsoft yahei"; color: #999; float: right;}
+.main .form{ margin-top: 20px;}
+.main .form .tab{ margin-top: 10px;}
+.main .form .tab p{ font: 14px/26px "microsoft yahei"; color: #999;}
+.main .form .tab p .check{ vertical-align: middle; margin-top: -2px; margin-right: 5px;}
+.main .form .tab table{ margin-top: 30px;}
+.main .form .tab table th,.main .form .tab table td{ padding-bottom: 10px; vertical-align: top;}
+.main .form .tab table th{ font: 14px/33px "microsoft yahei"; color: #333; text-align: right;}
+.main .form .tab table td .text{ width: 296px; height: 31px; border: 1px solid #ddd; color: #333;}
+.main .form .tab table td select{ width: 130px; height: 33px; border: 1px solid #ddd; font: 14px/33px "microsoft yahei"; color: #333;}
+.main .form .tab table td textarea{ width: 296px; height: 74px; border: 1px solid #ddd; color: #333;}
+.main .form .tab table td label{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .form .tab table td .checkbox{ vertical-align: middle; margin-top: -2px; margin-right: 3px;}
+.main .form .tab table td .btn,.main .form .tab table td .reset{ width: 44px; height: 26px; font: 14px/26px "microsoft yahei"; color: #333; background: #f1f0ef; border: 1px solid #ddd; cursor: pointer;}
+.main .form .indent{ margin-top: 40px;}
+.main .form .indent h3{ font: bold 16px/26px "microsoft yahei"; color: #333;}
+.main .form .indent table{ width: 100%; margin-top: 20px;}
+.main .form .indent table th{ font: 14px/40px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd;}
+.main .form .indent table td{ font: 14px/26px "microsoft yahei"; border-bottom: 1px solid #ddd; padding: 20px 0; text-align: center; color: #333;}
+.main .form .indent table td:nth-child(1){ text-align: left; width: 50%;}
+.main .form .indent table td span,.main .form .indent table td img{ vertical-align: middle; color: #333;}
+.main .form .indent table td em{ color: #E85041; font-style: normal;}
+.main .form .settlement{ margin-top: 30px; }
+.main .form .settlement .jj{ overflow: hidden;}
+.main .form .settlement .jj span{ font: 14px/26px "microsoft yahei"; color: #333; float: right;}
+.main .form .settlement .jj span em{ color: #E85041; font-style: normal;}
+.main .form .settlement .jj table{ float: right;}
+.main .form .settlement .jj th{ font: 14px/26px "microsoft yahei"; color: #333; text-align: right;}
+.main .form .settlement .jj td{ font: 14px/26px "microsoft yahei"; color: #333; }
+.main .form .settlement .jj td b{ font-size: 26px; color: #E85041;}
+.main .form .settlement .cs{ text-align: right; margin-top: 15px;}
+.main .form .settlement .cs a.xiugai{ font: 14px/36px "microsoft yahei"; color: #333;}
+.main .form .settlement .cs a.submit{ font: 14px/36px "microsoft yahei"; color: #fff; display: inline-block; vertical-align: middle; background: #A57E61; width: 119px; text-align: center;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+.now{ width: 98%;}
+
+.plan{ width: 98%; margin: 20px auto 0; font-size: 0; text-align: center;}
+.plan li{ display: inline-block; margin: 0 6%;}
+
+.main{ width: 98%; margin: 20px auto;}
+
+
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+.now{ width: 98%;}
+
+.plan{ width: 98%; margin: 20px auto 0; font-size: 0; text-align: center;}
+.plan li{ display: inline-block; margin: 0 6%;}
+
+.main{ width: 98%; margin: 20px auto;}
+.main .form .settlement .jj td b{ font-size: 20px; color: #E85041;}
+
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 98%; margin: 10px auto 0; font-size: 0;}
+.plan li{ display: block; margin: 0  0 10px;}
+.plan li span{ font: 13px/21px "microsoft yahei"; color: #fff; background: #cdcdcd; border-radius: 50%; display: inline-block; width: 21px; text-align: center; margin-right: 5px;}
+.plan li i{ font: 13px/21px "microsoft yahei"; color: #999;}
+.plan li.cur span{ background: #E85041;}
+
+.main{ width: 98%; margin: 20px auto;}
+.main .title{ overflow: hidden; border-bottom: 1px solid #ddd;}
+.main .title h3{ font: 13px/32px "microsoft yahei"; color: #333; float: left;}
+.main .title .address{ float: right; font: 12px/32px "microsoft yahei"; color: #999; float: right;}
+.main .form{ margin-top: 20px;}
+.main .form .tab{ margin-top: 10px;}
+.main .form .tab p{ font: 14px/26px "microsoft yahei"; color: #999;}
+.main .form .tab p .check{ vertical-align: middle; margin-top: -2px; margin-right: 5px;}
+.main .form .tab table{ margin-top: 30px;}
+.main .form .tab table th,.main .form .tab table td{ padding-bottom: 10px; vertical-align: top;}
+.main .form .tab table th{ font: 12px/28px "microsoft yahei"; color: #333; text-align: right; white-space:nowrap;}
+.main .form .tab table td .text{ width: 100%; height: 26px; border: 1px solid #ddd; color: #333;}
+.main .form .tab table td select{ width: 130px; height: 28px; border: 1px solid #ddd; font: 14px/33px "microsoft yahei"; color: #333;}
+.main .form .tab table td textarea{ width: 100%; height: 44px; border: 1px solid #ddd; color: #333;}
+.main .form .tab table td label{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .form .tab table td .checkbox{ vertical-align: middle; margin-top: -2px; margin-right: 3px;}
+.main .form .tab table td .btn,.main .form .tab table td .reset{ width: 44px; height: 26px; font: 14px/26px "microsoft yahei"; color: #333; background: #f1f0ef; border: 1px solid #ddd; cursor: pointer;}
+.main .form .indent{ margin-top: 20px;}
+.main .form .indent h3{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .form .indent table{ width: 100%; margin-top: 20px;}
+.main .form .indent table th{ font: 12px/32px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd;}
+.main .form .indent table td{ font: 12px/21px "microsoft yahei"; border-bottom: 1px solid #ddd; padding: 10px 0; text-align: center; color: #333;}
+.main .form .indent table td:nth-child(1){ text-align: left; width: 50%; overflow: hidden; text-overflow: ellipsis; white-space: normal;}
+.main .form .indent table td img{ display: none;}}
+.main .form .indent table td span,.main .form .indent table td img{ vertical-align: middle; color: #333;}
+.main .form .indent table td em{ color: #E85041; font-style: normal;}
+.main .form .settlement{ margin-top: 30px; }
+.main .form .settlement .jj{ overflow: hidden;}
+.main .form .settlement .jj span{ font: 12px/21px "microsoft yahei"; color: #333; float: right;}
+.main .form .settlement .jj span em{ color: #E85041; font-style: normal;}
+.main .form .settlement .jj table{ float: right;}
+.main .form .settlement .jj th{ font: 12px/21px "microsoft yahei"; color: #333; text-align: right;}
+.main .form .settlement .jj td{ font: 12px/21px "microsoft yahei"; color: #333; }
+.main .form .settlement .jj td b{ font-size: 16px; color: #E85041;}
+.main .form .settlement .cs{ text-align: right; margin-top: 15px;}
+.main .form .settlement .cs a.xiugai{ font: 12px/30px "microsoft yahei"; color: #333;}
+.main .form .settlement .cs a.submit{ font: 12px/30px "microsoft yahei"; color: #fff; display: inline-block; vertical-align: middle; background: #A57E61; width: 119px; text-align: center;}
+}

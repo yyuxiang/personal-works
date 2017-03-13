@@ -1,0 +1,100 @@
+.now{ width: 1200px; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .content1{ overflow: hidden;}
+.main .content1 .graphic{ font-size: 0; background: #333333;}
+.main .content1 .graphic img{ display: inline-block; vertical-align: middle;}
+.main .content1 .graphic .xq{ display: inline-block; vertical-align: middle; padding-left: 15px;}
+.main .content1 .graphic .xq h3{ font: 30px/40px "microsoft yahei"; color: #fff;}
+.main .content1 .graphic .xq p{ font: 14px/24px "microsoft yahei"; color: #999;}
+.main .content1 .introduce{ font: 14px/24px "microsoft yahei"; color: #333; margin: 10px 20px;}
+.main .content2{ margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px; overflow: hidden;}
+.main .content2 li{ width: 271px; float: left; margin: 0 14px 15px;}
+.main .content2 li .pic img{ display: block;}
+.main .content2 li .zan{ background: #f5f1ee; height: 56px; text-align: center; font: 14px/56px "microsoft yahei"; color: #333;}
+.main .content2 li .zan img{ vertical-align: middle; margin-right: 8px;}
+.main .content3{ margin-top: 25px;}
+.main .content3 h3{ font: 24px/40px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.main .content3 ul{ overflow: hidden;}
+.main .content3 ul li{ width: 177px; float: left; text-align: center; margin: 0 11px;}
+.main .content3 ul li .pic{ width: 177px; height: 122px; margin-bottom: 10px;}
+.main .content3 ul li h4{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .content3 ul li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.now{ width: 98%; }
+
+.main{ width: 98%; margin: 20px auto;}
+.main .content1{ overflow: hidden;}
+.main .content1 .graphic{ font-size: 0; background: #333333;}
+.main .content1 .graphic img{ display: inline-block; width: 70%; vertical-align: middle;}
+.main .content1 .graphic .xq{ display: inline-block; vertical-align: middle; padding-left: 15px;}
+.main .content1 .graphic .xq h3{ font: 25px/40px "microsoft yahei"; color: #fff;}
+.main .content1 .graphic .xq p{ font: 14px/24px "microsoft yahei"; color: #999;}
+.main .content1 .introduce{ font: 14px/24px "microsoft yahei"; color: #333; margin: 10px 0px;}
+.main .content2{ margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px; overflow: hidden;}
+.main .content2 li{ width: 22%; float: left; margin: 0 1.5% 15px;}
+.main .content2 li .pic img{ display: block; width: 100%;}
+.main .content2 li .zan{ background: #f5f1ee; height: 46px; text-align: center; font: 14px/46px "microsoft yahei"; color: #333;}
+.main .content2 li .zan img{ vertical-align: middle; margin-right: 8px;}
+.main .content3{ margin-top: 25px;}
+.main .content3 h3{ font: 18px/40px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.main .content3 ul{ overflow: hidden;}
+.main .content3 ul li{ width: 18%; float: left; text-align: center; margin: 0 1% 10px;}
+.main .content3 ul li .pic{ width: 100%; height: 122px; margin-bottom: 10px;}
+.main .content3 ul li h4{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .content3 ul li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.now{ width: 98%; }
+
+.main{ width: 98%; margin: 20px auto;}
+.main .content1{ overflow: hidden;}
+.main .content1 .graphic{ font-size: 0; background: #333333;}
+.main .content1 .graphic img{ display: inline-block; width: 60%; vertical-align: middle;}
+.main .content1 .graphic .xq{ display: inline-block; vertical-align: middle; padding-left: 15px;}
+.main .content1 .graphic .xq h3{ font: 20px/30px "microsoft yahei"; color: #fff;}
+.main .content1 .graphic .xq p{ font: 14px/24px "microsoft yahei"; color: #999;}
+.main .content1 .introduce{ font: 14px/24px "microsoft yahei"; color: #333; margin: 10px 0px;}
+.main .content2{ margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px; overflow: hidden;}
+.main .content2 li{ width: 22%; float: left; margin: 0 1.5% 15px;}
+.main .content2 li .pic img{ display: block; width: 100%;}
+.main .content2 li .zan{ background: #f5f1ee; height: 46px; text-align: center; font: 14px/46px "microsoft yahei"; color: #333;}
+.main .content2 li .zan img{ vertical-align: middle; margin-right: 8px;}
+.main .content3{ margin-top: 25px;}
+.main .content3 h3{ font: 18px/40px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.main .content3 ul{ overflow: hidden;}
+.main .content3 ul li{ width: 23%; float: left; text-align: center; margin: 0 1% 10px;}
+.main .content3 ul li .pic{ width: 100%; height: auto; margin-bottom: 10px;}
+.main .content3 ul li .pic img{ display: block; width: 100%;}
+.main .content3 ul li h4{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .content3 ul li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.now{ width: 98%; }
+
+.main{ width: 98%; margin: 20px auto;}
+.main .content1{ overflow: hidden;}
+.main .content1 .graphic{ font-size: 0; background: #333333;}
+.main .content1 .graphic img{ display: block; width: 100%; }
+.main .content1 .graphic .xq{ display: block; margin-top: 10px; padding-bottom: 10px; padding-left: 15px;}
+.main .content1 .graphic .xq h3{ font: 15px/30px "microsoft yahei"; color: #fff;}
+.main .content1 .graphic .xq p{ font: 12px/20px "microsoft yahei"; color: #999;}
+.main .content1 .introduce{ font: 12px/20px "microsoft yahei"; color: #333; margin: 10px 0px;}
+.main .content2{ margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px; overflow: hidden;}
+.main .content2 li{ width: 48%; float: left; margin: 0 1% 8px;}
+.main .content2 li .pic img{ display: block; width: 100%;}
+.main .content2 li .zan{ background: #f5f1ee; height: 46px; text-align: center; font: 14px/46px "microsoft yahei"; color: #333;}
+.main .content2 li .zan img{ vertical-align: middle; margin-right: 8px;}
+.main .content3{ margin-top: 25px;}
+.main .content3 h3{ font: 18px/40px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.main .content3 ul{ overflow: hidden;}
+.main .content3 ul li{ width: 48%; float: left; text-align: center; margin: 0 1% 10px;}
+.main .content3 ul li .pic{ width: 100%; height: auto; margin-bottom: 10px;}
+.main .content3 ul li .pic img{ display: block; width: 100%;}
+.main .content3 ul li h4{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .content3 ul li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+}

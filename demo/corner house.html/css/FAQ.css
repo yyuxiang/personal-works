@@ -1,0 +1,49 @@
+.main{ width: 1200px; margin: 50px auto;}
+.main .menu{ width: 210px; float: left;}
+.main .menu h3{ height: 40px; background: #d9c9bc; font: 16px/40px "microsoft yahei"; color: #333; padding-left: 40px;}
+.main .menu li{ margin-bottom: 1px; }
+.main .menu li .tit{ background: #f1f0ef url(../images/9-5.png) 90% center no-repeat; height: 40px;}
+.main .menu li .tit a{ padding-left: 15px; font: 14px/40px "microsoft yahei"; color: #666;}
+.main .menu li .subnav{ margin-bottom: 8px; margin-left: 30px; margin-top: 3px;}
+.main .menu li .subnav dd a{ font: 12px/26px "microsoft yahei"; color: #333;}
+.main .menu li.cur .tit{ background-image: url(../images/9-5-1.png);}
+.main .menu li .subnav{ display: none;}
+.main .menu li .subnav dd.on a{ color: #E85041;}
+
+.main .content{ width: 980px; float: right;}
+.main .content .title{ font: 12px/40px "microsoft yahei"; color: #333; background: #f1f0ef; padding-left: 15px;}
+.main .content .text{ margin-top: 15px;}
+.main .content .text h3{ font: 18px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: 1px dashed #ddd; margin: 0 30px 30px;}
+.main .content .text p{ font: 14px/26px "microsoft yahei"; color: #666; margin: 0 30px ;}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.main{ width: 98%; margin: 50px auto;}
+	.main .menu{ width: 24%; float: left;}	
+	.main .content{ width: 75%; float: right;}	
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+	.main{ width: 98%; margin: 50px auto;}
+	.main .menu{ width: 24%; float: left;}
+	.main .menu h3{ text-align: center; padding-left: 0;}	
+	.main .content{ width: 75%; float: right;}	
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	
+	.main{ width: 98%; margin: 10px auto;}
+	.main .menu{ display: ; float: none; width: 100%;}
+	.main .menu h3{ height: 40px; background: #ddd; font: 16px/40px "microsoft yahei"; color: #333; padding-left: 40px;}
+	
+	.main .content{ width: 100%; float: none;}
+	.main .content .title{ display: none;}
+	.main .content .text{ margin-top: 15px;}
+	.main .content .text h3{ font: 16px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: 1px dashed #ddd; margin: 0 0 20px;}
+	.main .content .text p{ font: 13px/20px "microsoft yahei"; color: #666; margin: 0 ;}
+	
+}

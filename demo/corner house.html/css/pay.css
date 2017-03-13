@@ -1,0 +1,78 @@
+.now{ width: 1200px; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 1200px; margin: 20px auto 0; font-size: 0;}
+.plan li{ display: inline-block; margin: 0 120px;}
+.plan li span{ font: 14px/22px "microsoft yahei"; color: #fff; background: #cdcdcd; border-radius: 50%; display: inline-block; width: 22px; text-align: center; margin-right: 15px;}
+.plan li i{ font: 14px/22px "microsoft yahei"; color: #999;}
+.plan li.cur span{ background: #E85041;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .tab1{}
+.main .tab1 table{ width: 100%; border-collapse: collapse;}
+.main .tab1 table th{ font: 14px/50px "microsoft yahei"; color: #333; background: #f1f0ef; border: 1px solid #ddd;}
+.main .tab1 table th:nth-child(1){ text-align: left; text-indent: 2em;}
+.main .tab1 table td{ font: 14px/26px "microsoft yahei"; padding: 20px 0; border: 1px solid #ddd;}
+.main .tab1 table td a{ color: #333; margin-left: 2em;}
+.main .tab1 table td:nth-child(2){ text-align: center;}
+.main .tab1 table td b{ color: #E85041;}
+.main .tab2{ margin-top: 25px;}
+.main .tab2 p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .tab2 .pay{ margin-top: 0px;}
+.main .tab2 .pay span{ font: 14px/26px "microsoft yahei"; color: #333; margin-right: 15px;}
+.main .tab2 .pay span input[type=radio]{ vertical-align: middle; margin-top: -2px; margin-right: 2px;}
+.main .l{ text-align: right;}
+.main .l span{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .l span b{ color: #E85041;}
+.main .l a{ display: inline-block; width: 121px; height: 35px; background: #A57E61; font: 14px/35px "microsoft yahei"; color: #fff; text-align: center;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 98%; margin: 20px auto 0; font-size: 0; text-align: center;}
+.plan li{ display: inline-block; margin: 0 6%;}
+
+.main{ width: 98%; margin: 20px auto;}
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 98%; margin: 20px auto 0; font-size: 0; text-align: center;}
+.plan li{ display: inline-block; margin: 0 6%;}
+
+.main{ width: 98%; margin: 20px auto;}
+.main .tab1 table{ width: 100%; border-collapse: collapse;}
+.main .tab1 table th{ font: 14px/50px "microsoft yahei"; color: #333; background: #f1f0ef; border: 1px solid #ddd;}
+.main .tab1 table th:nth-child(1){ text-align: left; text-indent: 2em;}
+.main .tab1 table td{ font: 14px/26px "microsoft yahei"; padding: 10px 0; border: 1px solid #ddd;}
+.main .tab1 table td a{ color: #333; margin: 0 10px; display: block; }
+.main .tab1 table td:nth-child(2){ text-align: center; width: 30%;}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.plan{ width: 98%; margin: 10px auto 0; font-size: 0;}
+.plan li{ display: block; margin: 0  0 10px;}
+.plan li span{ font: 13px/21px "microsoft yahei"; color: #fff; background: #cdcdcd; border-radius: 50%; display: inline-block; width: 21px; text-align: center; margin-right: 5px;}
+.plan li i{ font: 13px/21px "microsoft yahei"; color: #999;}
+.plan li.cur span{ background: #E85041;}
+
+.main{ width: 98%; margin: 20px auto;}
+.main .tab1 table{ width: 100%; border-collapse: collapse;}
+.main .tab1 table th{ font: 12px/30px "microsoft yahei"; color: #333; background: #f1f0ef; border: 1px solid #ddd;}
+.main .tab1 table th:nth-child(1){ text-align: left; text-indent: 2em;}
+.main .tab1 table td{ font: 12px/21px "microsoft yahei"; padding: 10px 0; border: 1px solid #ddd;}
+.main .tab1 table td a{ color: #333; margin: 0 10px; display: block; }
+.main .tab1 table td:nth-child(2){ text-align: center; width: 30%;}
+.main .l{ text-align: right; margin-top: 10px;}
+.main .l span{ font: 14px/26px "microsoft yahei"; color: #333;}
+.main .l span b{ color: #E85041;}
+.main .l a{ display: inline-block; width: 101px; height: 30px; background: #A57E61; font: 12px/30px "microsoft yahei"; color: #fff; text-align: center;}
+}

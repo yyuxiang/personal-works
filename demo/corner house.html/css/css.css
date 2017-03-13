@@ -1,0 +1,210 @@
+*{ padding:0; margin:0}
+img{ border:0; }
+ul,ol{ list-style:none}
+a{ text-decoration:none}
+.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
+.clearfix { display: inline-table; }
+/* Hides from IE7 - mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE7 - mac */
+
+/*swiper*/
+.swiper-container { width: 100%;  height: 100%;  }
+.swiper-slide { text-align: center; font-size: 18px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex;       display: flex; -webkit-box-pack: center;   -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center;  -webkit-box-align: center;  -ms-flex-align: center;   -webkit-align-items: center; align-items: center;   }
+/*end*/
+
+
+.logo{ border-top: 30px solid #000; text-align: center; padding: 10px 0;}
+
+.header{ height: 62px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background: #fafafa;}
+.in-head{ width: 1200px; margin: 0 auto;}
+.in-head .navBtn{ display: none;}
+.in-head .nav{ float: left;}
+.in-head .nav li{ float: left; margin-left: 5px; margin-right: 10px; height: 62px; width: 118px; position: relative; text-align: center; z-index: 111; }
+.in-head .nav li a{ display: block; width: 100%; height: 100%; transition: 0.8s all; -moz-transition: 0.8s all; -webkit-transition: 0.8s all;}
+.in-head .nav li a p{ font: 16px/26px "microsoft yahei"; color: #333; padding-top: 17px; transition: 0.8s all; -moz-transition: 0.8s all; -webkit-transition: 0.8s all;}
+.in-head .nav li a span{ font: 12px/18px "microsoft yahei"; color: #333; opacity: 0; transition: 0.8s all; -moz-transition: 0.8s all; -webkit-transition: 0.8s all; text-transform: uppercase;}
+.in-head .nav li:hover a{ background: #fdfdfd; box-shadow: 0 0 5px rgba(0,0,0,0.1); height: 110%;}
+.in-head .nav li:hover p{ padding-top: 12px;}
+.in-head .nav li:hover span{ opacity: 1;}
+.in-head .sign{ float: left; margin-left: 5px;}
+.in-head .sign .dl,.in-head .sign .buy{ float: left; margin-left: 40px; cursor: pointer; position: relative; z-index: 11;}
+.in-head .sign .dl .dlBtn{ width: 82px; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+.in-head .sign .dl .dlBtn>img,.in-head .sign .buy .buyBtn>img{ margin-top: 20px; margin-left: 10px;}
+.in-head .sign .buy .buyBtn{ width: 82px; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+.in-head .sign .dl:hover .dlBtn,.in-head .sign .buy:hover .buyBtn{ background-color: #fff; box-shadow: 0 0 3px rgba(0,0,0,0.2); }
+.in-head .sign .dl dl{ position: absolute; top: 62px; right: 0; padding: 20px 0; background: #fff; width: 234px; box-shadow: 0 3px 3px rgba(0,0,0,0.3); display: none;}
+.in-head .sign .dl dl dt,.in-head .sign .dl dl dd{ padding: 0 10px;}
+.in-head .sign .dl dl dt a{ display: block; width: 100%; height: 34px; background: #e85041; font: 14px/34px "microsoft yahei"; color: #fff; text-align: center;}
+.in-head .sign .dl dl dd{ margin-top: 10px;}
+.in-head .sign .dl dl dd p{ font: 14px/18px "microsoft yahei"; color: #999;}
+.in-head .sign .dl dl dd a{ display: block; width: 100%; height: 34px; background: #f1f0ef; font: 14px/34px "microsoft yahei"; color: #666; text-align: center;}
+.in-head .sign .dl:hover dl{ display: block;}
+
+.contact{ width: 1200px; background: #393939; padding: 15px 0; margin: 0 auto;}
+.contact h3{ font: 28px/32px "microsoft yahei"; color: #fff; font-weight: 100; padding-left: 25px;}
+.contact ul{ font-size: 0; text-align: center; margin-top: 12px;}
+.contact ul li{ display: inline-block; margin: 0 50px; text-align: left; padding-left: 30px;}
+.contact ul li h4{ font: 20px/24px "microsoft yahei"; color: #fff; font-weight: 100;}
+.contact ul li p{ font: 20px/24px "microsoft yahei"; color: #fff; font-weight: 100;}
+.contact ul li:nth-child(1){ background: url(../images/18-18.png) left top no-repeat;}
+.contact ul li:nth-child(2){ background: url(../images/21-24.png) left top no-repeat;}
+.contact ul li:nth-child(3){ background: url(../images/21-29.png) left top no-repeat;}
+
+.menus{ width: 100%; margin-top: 10px; font-size: 0; text-align: center;}
+.menus li{ display: inline-block; margin: 0 50px;}
+.menus li a{ font: 18px/32px "microsoft yahei"; color: #333; font-weight: 100;}
+
+.share{ text-align: center; font-size: 0; margin: 20px 0;}
+.share a{ display: inline-block; width: 31px; height: 31px; text-align: center; margin: 0 4px; background-color: #666 !important; border-radius: 4px;}
+.share a:nth-child(1){ background: url(../images/share1.png) center center no-repeat;}
+.share a:nth-child(2){ background: url(../images/share2.png) center center no-repeat;}
+.share a:nth-child(3){ background: url(../images/share3.png) center center no-repeat;}
+.share a:nth-child(4){ background: url(../images/share4.png) center center no-repeat;}
+
+.linkFirend{ width: 1200px; margin: 0 auto;}
+.linkFirend ul{ font-size: 0; text-align: center;}
+.linkFirend li{ display: inline-block; vertical-align: middle; margin: 0 10px 10px;}
+
+.footer{ text-align: center; font: 12px/32px "microsoft yahei"; color: #555;}
+.footer span{ margin-left: 20px;}
+.footer span a{ color: #555;}
+
+/*960-1199*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.logo{ border-top: 30px solid #000; text-align: center; padding: 10px 0;}
+
+	.header{ height: 62px; border-top: 1px solid #ddd; background: #fafafa;}
+	.in-head{ width: 100%; margin: 0 auto;}
+	.in-head .nav{ width: 80%;}
+	.in-head .nav li{ margin-left: 0px; margin-right: 0; height: 62px; width: 14.285%; position: relative; }
+	.in-head .nav li a{ display: block; width: 100%; height: 100%; }
+	.in-head .nav li a p{ font: 14px/21px "microsoft yahei"; color: #333; padding-top: 21px; }
+	.in-head .nav li a span{ font: 12px/18px "microsoft yahei"; color: #333; display: block;transform: scale(0.8); -webkit-transform: scale(0.8); text-transform: uppercase; white-space:nowrap; }
+	.in-head .nav li:hover a{ background: #fdfdfd; box-shadow: 0 0 5px rgba(0,0,0,0.1); height: 100%;}
+	.in-head .nav li:hover p{ padding-top: 12px;}
+	.in-head .sign{ float: left; margin-left: 0; width: 20%;}
+	.in-head .sign .dl,.in-head .sign .buy{ float: left; margin-left: 0; width: 50%; position: relative; }
+	.in-head .sign .dl .dlBtn{ width: 100%; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl .dlBtn>img,.in-head .sign .buy .buyBtn>img{ margin-top: 20px; margin-left: 10px;}
+	.in-head .sign .buy .buyBtn{ width: 100%; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl:hover .dlBtn,.in-head .sign .buy:hover .buyBtn{ background-color: #fff; box-shadow: 0 0 3px rgba(0,0,0,0.2); }
+	.in-head .sign .dl dl{ position: absolute; top: 62px; right: 0; padding: 20px 0; background: #fff; width: 234px; box-shadow: 0 3px 3px rgba(0,0,0,0.3); display: none;}
+	
+	.contact{ width: 100%; background: #393939; padding: 15px 0; margin: 0 auto;}
+	.menus{ width: 100%; margin-top: 10px; font-size: 0; text-align: center;}	
+	.linkFirend{ width: 100%; margin: 0 auto;}
+
+}
+	
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+	.logo{ border-top: 30px solid #000; text-align: center; padding: 10px 0;}
+
+	.header{ height: 62px; border-top: 1px solid #ddd; background: #fafafa;}
+	.in-head{ width: 100%; margin: 0 auto;}
+	.in-head .nav{ width: 80%;}
+	.in-head .nav li{ margin-left: 0px; margin-right: 0; height: 62px; width: 14.285%; position: relative; }
+	.in-head .nav li a{ display: block; width: 100%; height: 100%; }
+	.in-head .nav li a p{ font: 14px/21px "microsoft yahei"; color: #333; padding-top: 21px; }
+	.in-head .nav li:hover span{ opacity: 0;}
+	.in-head .nav li:hover a{ background: #fdfdfd; box-shadow: 0 0 5px rgba(0,0,0,0.1); height: 100%;}
+	.in-head .nav li:hover p{ padding-top: 21px;}
+	.in-head .sign{ float: left; margin-left: 0; width: 20%;}
+	.in-head .sign .dl,.in-head .sign .buy{ float: left; margin-left: 0; width: 50%; position: relative; }
+	.in-head .sign .dl .dlBtn{ width: 100%; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl .dlBtn>img,.in-head .sign .buy .buyBtn>img{ margin-top: 20px; margin-left: 10px;}
+	.in-head .sign .buy .buyBtn{ width: 100%; display: block; height: 62px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl:hover .dlBtn,.in-head .sign .buy:hover .buyBtn{ background-color: #fff; box-shadow: 0 0 3px rgba(0,0,0,0.2); }
+	.in-head .sign .dl dl{ position: absolute; top: 62px; right: 0; padding: 20px 0; background: #fff; width: 234px; box-shadow: 0 3px 3px rgba(0,0,0,0.3); display: none;}
+	
+	.contact{ width: 100%; background: #393939; padding: 15px 0; margin: 0 auto;}
+	.contact h3{ font: 20px/26px "microsoft yahei"; color: #fff; font-weight: 100; padding-left: 25px;}
+	.contact ul{ font-size: 0; text-align: center; margin-top: 12px;}
+	.contact ul li{ display: inline-block; margin: 0 20px; text-align: left; padding-left: 30px;}
+	.contact ul li h4{ font: 15px/21px "microsoft yahei"; color: #fff; font-weight: 100;}
+	.contact ul li p{ font: 15px/21px "microsoft yahei"; color: #fff; font-weight: 100;}
+	.contact ul li:nth-child(1){ background: url(../images/18-18.png) left top no-repeat;}
+	.contact ul li:nth-child(2){ background: url(../images/21-24.png) left top no-repeat;}
+	.contact ul li:nth-child(3){ background: url(../images/21-29.png) left top no-repeat;}
+	
+	.menus{ width: 100%; margin-top: 10px; font-size: 0; text-align: center;}
+	.menus li{ display: inline-block; margin: 0 0; width: 20%;}
+	.menus li a{ font: 14px/24px "microsoft yahei"; color: #333; font-weight: 100;}
+	
+	.share{ text-align: center; font-size: 0; margin: 20px 0;}
+	.share a{ display: inline-block; width: 31px; height: 31px; text-align: center; margin: 0 4px; background-color: #666 !important; border-radius: 4px;}
+	.share a:nth-child(1){ background: url(../images/share1.png) center center no-repeat;}
+	.share a:nth-child(2){ background: url(../images/share2.png) center center no-repeat;}
+	.share a:nth-child(3){ background: url(../images/share3.png) center center no-repeat;}
+	.share a:nth-child(4){ background: url(../images/share4.png) center center no-repeat;}
+	
+	.linkFirend{ width: 100%; margin: 0 auto;}
+	.linkFirend ul{ font-size: 0; text-align: center;}
+	.linkFirend li{ display: inline-block; vertical-align: middle; margin: 0 10px 10px;}
+	
+	.footer{ text-align: center; font: 12px/32px "microsoft yahei"; color: #555;}
+	.footer span{ margin-left: 20px;}
+	.footer span a{ color: #555;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.logo{ border-top: 5px solid #000; text-align: center; padding: 10px 0;}
+	.logo img{ display: block; width: 60%; margin: 0 auto;}
+
+	.header{ height: 52px; border-top: 1px solid #ddd; background: #fafafa;}
+	.in-head{ width: 100%; margin: 0 auto; position: relative; z-index: 111;}
+	.in-head .navBtn{ display: block; width: 35px; height: 35px; border: 1px solid #ddd; background: #fff; position: absolute; font: 32px/32px "microsoft yahei"; font-weight: 100; text-align: center; top: 7px; left: 7px;}
+	.in-head .nav{ width: 100%; display: none; position: absolute; top: 52px; padding: 20px 0; background: rgba(0,0,0,0.5);}
+	.in-head .nav li{ margin-left: 0px; margin-right: 0; height: 32px; width: 100%; float: none; position: relative; border-bottom: 1px solid rgba(255,255,255,0.5); }
+	.in-head .nav li:last-child{ border: none;}
+	.in-head .nav li a{ display: block; width: 100%; height: 100%; }
+	.in-head .nav li a p{ font: 14px/32px "microsoft yahei"; color: #fff; padding-top: 0; }
+	.in-head .nav li span{ display: none;}
+	.in-head .nav li:hover a{ background: rgba(0,0,0,.7); box-shadow: none; height: 100%;}
+	.in-head .nav li:hover p{ padding-top: 0;}
+	.in-head .sign{ float: right; margin-left: 0; width: 40%;}
+	.in-head .sign .dl,.in-head .sign .buy{ float: left; margin-left: 0; width: 50%; position: relative; }
+	.in-head .sign .dl .dlBtn{ width: 100%; display: block; height: 52px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl .dlBtn>img,.in-head .sign .buy .buyBtn>img{ margin-top: 20px; margin-left: 10px;}
+	.in-head .sign .buy .buyBtn{ width: 100%; display: block; height: 52px; background: url(../images/12-7.png) 80% center no-repeat;}
+	.in-head .sign .dl:hover .dlBtn,.in-head .sign .buy:hover .buyBtn{ background-color: #fff; box-shadow: 0 0 3px rgba(0,0,0,0.2); }
+	.in-head .sign .dl dl{ position: absolute; top: 52px; right: 0; padding: 20px 0; background: #fff; width: 234px; box-shadow: 0 3px 3px rgba(0,0,0,0.3); display: none;}
+	
+	.contact{ width: 100%; background: #393939; padding: 15px 0; margin: 0 auto;}
+	.contact h3{ font: 16px/24px "microsoft yahei"; color: #fff; font-weight: 100; padding-left: 15px;}
+	.contact ul{ font-size: 0; text-align: left; margin-top: 0;}
+	.contact ul li{ display: inline-block; margin: 10px 20px 0; text-align: left; padding-left: 30px;}
+	.contact ul li h4{ font: 13px/21px "microsoft yahei"; color: #fff; font-weight: 100;}
+	.contact ul li p{ font: 13px/21px "microsoft yahei"; color: #fff; font-weight: 100;}
+	.contact ul li:nth-child(1){ background: url(../images/18-18.png) left 8px no-repeat;}
+	.contact ul li:nth-child(2){ background: url(../images/21-24.png) left 8px no-repeat;}
+	.contact ul li:nth-child(3){ background: url(../images/21-29.png) left 8px no-repeat;}
+	
+	.menus{ width: 100%; margin-top: 10px; font-size: 0; text-align: center;}
+	.menus li{ display: inline-block; margin: 0 0; width: 20%;}
+	.menus li a{ font: 13px/24px "microsoft yahei"; color: #333; font-weight: 100;}
+	
+	.share{ text-align: center; font-size: 0; margin: 20px 0;}
+	.share a{ display: inline-block; width: 31px; height: 31px; text-align: center; margin: 0 4px; background-color: #666 !important; border-radius: 4px;}
+	.share a:nth-child(1){ background: url(../images/share1.png) center center no-repeat;}
+	.share a:nth-child(2){ background: url(../images/share2.png) center center no-repeat;}
+	.share a:nth-child(3){ background: url(../images/share3.png) center center no-repeat;}
+	.share a:nth-child(4){ background: url(../images/share4.png) center center no-repeat;}
+	
+	.linkFirend{ display: none;}
+	
+	.footer{ text-align: center; font: 12px/18px "microsoft yahei"; color: #555; padding: 10px 0;}
+	.footer span{ margin-left: 0; display: block;}
+	.footer span a{ color: #555;}
+}
+
+
+
+
+
+
+

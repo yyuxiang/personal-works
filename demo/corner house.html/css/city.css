@@ -1,0 +1,224 @@
+.swiper-container .swiper-pagination{ text-align: right; right: 10px; width: auto;}
+.swiper-container .swiper-pagination .swiper-pagination-bullet{ background: #fff; opacity: 1;}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active{ background: #e85041;}
+.swiper-container .swiper-wrapper img{ display: block; width: 100%;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .slidebar_l{ width: 276px; float: left; background: #f2f2f2;}
+.main .menu1{ margin-bottom: 15px;}
+.main .menu1 .tit{ font: 18px/45px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu1 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu1 .filter{ margin: 10px 15px;}
+.main .menu1 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px;}
+.main .menu1 .filter dd{ padding: 0 10px;}
+.main .menu1 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu1 .filter dd p a{ font: 14px/32px "microsoft yahei"; color: #333;}
+.main .menu1 .filter dd p a:hover{ color: #E85041;}
+
+.main .menu2{ margin-bottom: 15px;}
+.main .menu2 .tit{ font: 18px/45px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu2 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu2 .filter{ margin: 10px 15px;}
+.main .menu2 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px; margin-bottom: 5px;}
+.main .menu2 .filter li{ padding: 0 10px;}
+.main .menu2 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .btn{ background: url(../images/6-11.png) 80% center no-repeat;}
+.main .menu2 .filter li.cur .btn{ background: url(../images/11-6.png) 80% center no-repeat;}
+.main .menu2 .filter li .btn a{ font: 14px/36px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .submenu{ margin-left: 15px; display: none;}
+.main .menu2 .filter li .submenu dd a{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .submenu dd a:hover{ color: #E85041;}
+
+.main .menu3{ margin-bottom: 15px;}
+.main .menu3 .tit{ font: 18px/45px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu3 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu3 .filter{ margin: 10px 15px;}
+.main .menu3 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px; margin-bottom: 5px;}
+.main .menu3 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px;}
+.main .menu3 .filter dd{ padding: 0 10px; font-size: 0;}
+.main .menu3 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu3 .filter dd a{ display: inline-block; width: 28px; height: 28px; border: 1px solid #fff; margin: 0 7px 10px;}
+.main .menu3 .filter dd a.color1{ background: #d7003a;}
+.main .menu3 .filter dd a.color2{ background: #c7b370;}
+.main .menu3 .filter dd a.color3{ background: #ffd700;}
+.main .menu3 .filter dd a.color4{ background: #ffffbf;}
+.main .menu3 .filter dd a.color5{ background: #006948;}
+.main .menu3 .filter dd a.color6{ background: #c0c0c0;}
+.main .menu3 .filter dd a.color7{ background: #af0082;}
+.main .menu3 .filter dd a.color8{ background: #583822;}
+.main .menu3 .filter dd a.color9{ background: #0094c8;}
+.main .menu3 .filter dd a.color10{background: #522f60;}
+.main .menu3 .filter dd a.color11{background: #000000;}
+.main .menu3 .filter dd a.color12{background: #FFFFFF;}
+
+.main .slidebar_r{ width: 890px; float: right;}
+.main .slidebar_r .filter{ overflow: hidden; border-top: 1px solid #A57E61; height: 45px; background: #eeeeee; margin-top: 15px;}
+.main .slidebar_r .filter .sort{ float: left; margin-left: 10px;}
+.main .slidebar_r .filter .sort span,.main .slidebar_r .filter .sort a{ font: 14px/45px "microsoft yahei"; color: #333;}
+.main .slidebar_r .filter .sort a{ color: #666; background: url(../images/7-12.png) right center no-repeat; padding-right: 10px; margin-left: 8px;}
+.main .slidebar_r .filter .total{ float: right; margin-right: 10px;}
+.main .slidebar_r .filter .total span,.main .slidebar_r .filter .total a{ font: 14px/45px "microsoft yahei"; color: #333;}
+.main .slidebar_r .filter .total a{ margin: 0 10px;}
+.main .slidebar_r .filter .total .page{ width: 35px; height: 23px; text-align: center; color: #666;}
+.main .slidebar_r .product{ font-size: 0; margin-top: 20px; margin-left: 2px;}
+.main .slidebar_r .product li{ width: 295px; height: 342px; margin-bottom: 15px; box-shadow: 0 0 1px rgba(0,0,0,0.2); display: inline-block; position: relative;}
+.main .slidebar_r .product li .pic{ width: 100%; height: 271px;}
+.main .slidebar_r .product li .txt{ height: 71px; background: #f7f7f7;}
+.main .slidebar_r .product li .txt h3{ font: 14px/26px "microsoft yahei"; color: #333; text-align: center; padding-top: 15px;}
+.main .slidebar_r .product li .txt p{ overflow: hidden; margin: 0 10px; font: 14px/26px "microsoft yahei";}
+.main .slidebar_r .product li .txt p .l{ color: #E85041; float: left;}
+.main .slidebar_r .product li .txt p .r{ float: right; background: url(../images/15-13.png) left center no-repeat; padding-left: 20px;}
+.main .slidebar_r .product li .design{ position: absolute; right: 5px; top: 5px; font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/18-18-1.png) center bottom no-repeat; padding-bottom: 15px; display: none;}
+.main .slidebar_r .product li .design a{ color: #333;}
+.main .slidebar_r .product li:hover{ box-shadow: 0 0 8px rgba(0,0,0,0.2); z-index: 1;}
+.main .slidebar_r .product li:hover .design{ display: block;}
+.main .slidebar_r .product li:hover .txt p .r{ background-image: url(../images/15-13-1.png); color: #E85041;}
+
+.pageinfo{ font-size: 0; margin-top: 30px;}
+.pageinfo a,.pageinfo span{ font: 18px/32px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 15px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ margin-left: 150px; font: 14px/32px "microsoft yahei"; color: #333;}
+.pageinfo .page{ width: 35px; height: 32px; border: 1px solid #ddd; color: #666; text-align: center;}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.main{ width: 98%; margin: 20px auto;}
+.main .slidebar_l{ width: 25%; float: left; background: #f2f2f2;}
+
+
+.main .slidebar_r{ width: 73%; float: right;}
+.main .slidebar_r .product li{ width: 33%; height: auto; }
+.main .slidebar_r .product li .pic{ width: 100%; height: auto; overflow: hidden;}
+.main .slidebar_r .product li .pic img{ display: block; width: 100%;}
+
+
+.pageinfo em{ margin-left: 50px; }
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .slidebar_l{ width: 25%; float: left; background: #f2f2f2;}
+.main .menu1{ margin-bottom: 15px;}
+.main .menu1 .tit{ font: 16px/35px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu1 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu1 .filter{ margin: 10px 15px;}
+.main .menu1 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px;}
+.main .menu1 .filter dd{ padding: 0 10px;}
+.main .menu1 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu1 .filter dd p a{ font: 14px/32px "microsoft yahei"; color: #333;}
+.main .menu1 .filter dd p a:hover{ color: #E85041;}
+
+.main .menu2{ margin-bottom: 15px;}
+.main .menu2 .tit{ font: 16px/35px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu2 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu2 .filter{ margin: 10px 15px;}
+.main .menu2 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px; margin-bottom: 5px;}
+.main .menu2 .filter li{ padding: 0 10px;}
+.main .menu2 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .btn{ background: url(../images/6-11.png) 80% center no-repeat;}
+.main .menu2 .filter li.cur .btn{ background: url(../images/11-6.png) 80% center no-repeat;}
+.main .menu2 .filter li .btn a{ font: 14px/36px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .submenu{ margin-left: 15px; display: none;}
+.main .menu2 .filter li .submenu dd a{ font: 14px/24px "microsoft yahei"; color: #333;}
+.main .menu2 .filter li .submenu dd a:hover{ color: #E85041;}
+
+.main .menu3{ margin-bottom: 15px;}
+.main .menu3 .tit{ font: 16px/35px "microsoft yahei"; background-color: #d9c9bd;}
+.main .menu3 .tit img{ vertical-align: middle; margin: 0 5px 0 10px;}
+.main .menu3 .filter{ margin: 10px 15px;}
+.main .menu3 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px; margin-bottom: 5px;}
+.main .menu3 .filter dt{ border-bottom: 1px solid #ddd; padding: 0 10px;}
+.main .menu3 .filter dd{ padding: 0 10px; font-size: 0;}
+.main .menu3 .filter dt a{ font: bold 14px/36px "microsoft yahei"; color: #333;}
+.main .menu3 .filter dd a{ display: inline-block; width: 28px; height: 28px; border: 1px solid #fff; margin: 0 7px 10px;}
+.main .menu3 .filter dd a.color1{ background: #d7003a;}
+.main .menu3 .filter dd a.color2{ background: #c7b370;}
+.main .menu3 .filter dd a.color3{ background: #ffd700;}
+.main .menu3 .filter dd a.color4{ background: #ffffbf;}
+.main .menu3 .filter dd a.color5{ background: #006948;}
+.main .menu3 .filter dd a.color6{ background: #c0c0c0;}
+.main .menu3 .filter dd a.color7{ background: #af0082;}
+.main .menu3 .filter dd a.color8{ background: #583822;}
+.main .menu3 .filter dd a.color9{ background: #0094c8;}
+.main .menu3 .filter dd a.color10{background: #522f60;}
+.main .menu3 .filter dd a.color11{background: #000000;}
+.main .menu3 .filter dd a.color12{background: #FFFFFF;}
+
+.main .slidebar_r{ width: 73%; float: right;}
+.main .slidebar_r .filter{ overflow: hidden; border-top: 1px solid #A57E61; height: 45px; background: #eeeeee; margin-top: 15px;}
+.main .slidebar_r .filter .sort{ float: left; margin-left: 10px;}
+.main .slidebar_r .filter .sort span,.main .slidebar_r .filter .sort a{ font: 14px/45px "microsoft yahei"; color: #333;}
+.main .slidebar_r .filter .sort a{ color: #666; background: url(../images/7-12.png) right center no-repeat; padding-right: 10px; margin-left: 8px;}
+.main .slidebar_r .filter .total{ display: none;}
+
+.main .slidebar_r .product{ font-size: 0; margin-top: 20px; margin-left: 2px;}
+.main .slidebar_r .product li{ width: 33.3%; height: auto; margin-bottom: 15px; box-shadow: 0 0 1px rgba(0,0,0,0.2); display: inline-block; position: relative;}
+.main .slidebar_r .product li .pic{ width: 100%; height: auto;}
+.main .slidebar_r .product li .pic img{ display: block; width: 100%;}
+.main .slidebar_r .product li .txt{ height: 51px; background: #f7f7f7;}
+.main .slidebar_r .product li .txt h3{ font: 12px/21px "microsoft yahei"; color: #333; text-align: center; padding-top: 6px;}
+.main .slidebar_r .product li .txt p{ overflow: hidden; margin: 0 10px; font: 12px/21px "microsoft yahei";}
+.main .slidebar_r .product li .txt p .l{ color: #E85041; float: left;}
+.main .slidebar_r .product li .txt p .r{ float: right; background: url(../images/15-13.png) left center no-repeat; padding-left: 20px;}
+.main .slidebar_r .product li .design{ position: absolute; right: 5px; top: 5px; font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/18-18-1.png) center bottom no-repeat; padding-bottom: 15px; display: none;}
+.main .slidebar_r .product li .design a{ color: #333;}
+.main .slidebar_r .product li:hover{ box-shadow: 0 0 8px rgba(0,0,0,0.2); z-index: 1;}
+.main .slidebar_r .product li:hover .design{ display: block;}
+.main .slidebar_r .product li:hover .txt p .r{ background-image: url(../images/15-13-1.png); color: #E85041;}
+
+.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 13px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 8px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ display: none;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .slidebar_l{ display: none;}
+
+
+.main .slidebar_r{ width: 100%; float: none;}
+.main .slidebar_r .filter{ overflow: hidden; border-top: 1px solid #A57E61; height: 45px; background: #eeeeee; margin-top: 15px;}
+.main .slidebar_r .filter .sort{ float: left; margin-left: 10px;}
+.main .slidebar_r .filter .sort span,.main .slidebar_r .filter .sort a{ font: 14px/45px "microsoft yahei"; color: #333;}
+.main .slidebar_r .filter .sort a{ color: #666; background: url(../images/7-12.png) right center no-repeat; padding-right: 10px; margin-left: 8px;}
+.main .slidebar_r .filter .total{ display: none;}
+
+.main .slidebar_r .product{ font-size: 0; margin-top: 20px; margin-left: 2px;}
+.main .slidebar_r .product li{ width:50%; height: auto; margin-bottom: 15px; box-shadow: 0 0 1px rgba(0,0,0,0.2); display: inline-block; position: relative;}
+.main .slidebar_r .product li .pic{ width: 100%; height: auto;}
+.main .slidebar_r .product li .pic img{ display: block; width: 100%;}
+.main .slidebar_r .product li .txt{ height: 51px; background: #f7f7f7;}
+.main .slidebar_r .product li .txt h3{ font: 12px/21px "microsoft yahei"; color: #333; text-align: center; padding-top: 6px;}
+.main .slidebar_r .product li .txt p{ overflow: hidden; margin: 0 10px; font: 12px/21px "microsoft yahei";}
+.main .slidebar_r .product li .txt p .l{ color: #E85041; float: left;}
+.main .slidebar_r .product li .txt p .r{ float: right; background: url(../images/15-13.png) left center no-repeat; padding-left: 20px;}
+.main .slidebar_r .product li .design{ position: absolute; right: 5px; top: 5px; font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/18-18-1.png) center bottom no-repeat; padding-bottom: 15px; display: none;}
+.main .slidebar_r .product li .design a{ color: #333;}
+.main .slidebar_r .product li:hover{ box-shadow: 0 0 8px rgba(0,0,0,0.2); z-index: 1;}
+.main .slidebar_r .product li:hover .design{ display: block;}
+.main .slidebar_r .product li:hover .txt p .r{ background-image: url(../images/15-13-1.png); color: #E85041;}
+
+.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 13px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 8px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

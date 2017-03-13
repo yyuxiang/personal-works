@@ -1,0 +1,70 @@
+.now{ width: 1200px; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main li{ float: left; width: 271px; text-align: center; margin: 0 13px 16px; }
+.main li .pic{ width: 271px; height: 184px; margin-bottom: 10px;}
+.main li h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+.main li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+
+.pageinfo{ font-size: 0; margin: 30px 0; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 18px/32px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 15px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ margin-left: 150px; font: 14px/32px "microsoft yahei"; color: #333;}
+.pageinfo .page{ width: 35px; height: 32px; border: 1px solid #ddd; color: #666; text-align: center;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.now{ width: 98%;}
+	
+	.main{ width: 98%; margin: 20px auto;}
+	.main li{ float: left; width: 30%; text-align: center; margin: 0 1.5% 16px; }
+	.main li .pic{ width: 100%; height: auto; margin-bottom: 10px;}
+	.main li .pic img{ display: block; width: 100%;}
+	.main li h3{ font: 18px/26px "microsoft yahei"; color: #333;}
+	.main li p{ font: 14px/21px "microsoft yahei"; color: #999;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+	.pageinfo a,.pageinfo span{ font: 15px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 11px;}
+	.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+	.pageinfo em{ margin-left: 150px; font: 14px/26px "microsoft yahei"; color: #333;}
+	.pageinfo .page{ width: 30px; height: 26px; border: 1px solid #ddd; color: #666; text-align: center;}
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+	.now{ width: 98%;}
+	
+	.main{ width: 98%; margin: 20px auto;}
+	.main li{ float: left; width: 30%; text-align: center; margin: 0 1.5% 16px; }
+	.main li .pic{ width: 100%; height: auto; margin-bottom: 10px;}
+	.main li .pic img{ display: block; width: 100%;}
+	.main li h3{ font: 16px/26px "microsoft yahei"; color: #333;}
+	.main li p{ font: 13px/20px "microsoft yahei"; color: #999;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+	.pageinfo a,.pageinfo span{ font: 15px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 11px;}
+	.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+	.pageinfo em{ margin-left: 150px; font: 14px/26px "microsoft yahei"; color: #333;}
+	.pageinfo .page{ width: 30px; height: 26px; border: 1px solid #ddd; color: #666; text-align: center;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	
+	.now{ width: 98%;}
+	
+	.main{ width: 98%; margin: 20px auto;}
+	.main li{ float: left; width: 48%; text-align: center; margin: 0 1% 10px; }
+	.main li .pic{ width: 100%; height: auto; margin-bottom: 10px;}
+	.main li .pic img{ display: block; width: 100%;}
+	.main li h3{ font: 14px/21px "microsoft yahei"; color: #333;}
+	.main li p{ font: 12px/18px "microsoft yahei"; color: #999;}
+	
+	.pageinfo{ font-size: 0; margin-top: 30px; text-align: center;}
+.pageinfo a,.pageinfo span{ font: 13px/26px "microsoft yahei"; display: inline-block; margin: 0 5px 0 0; color: #333; border: 1px solid #ddd; padding: 0 8px;}
+.pageinfo a.firstpage,.pageinfo a.prevpage,.pageinfo a.nextpage,.pageinfo a.lastpage{ color: #ddd;}
+.pageinfo em{ display: none;}
+	
+}

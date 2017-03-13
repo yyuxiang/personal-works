@@ -1,0 +1,411 @@
+.now{ width: 1200px; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.content1{ width: 1200px; margin: 0 auto;}
+.content1 .scrollPic{ width: 593px; float: left;}
+.content1 .scrollbox1{ width: 593px;}
+.content1 .scrollbox1 .bd{ height: auto;}
+.content1 .scrollbox1 .bd li{ height: auto;  border: 2px solid #e8e8e8;}
+.content1 .scrollbox1 .bd li img{ width: 589px; height: 396px;}
+.content1 .scrollbox1 .hd{ margin-top: 8px; height: 73px;}
+.content1 .scrollbox1 .hd li{ width: 113px; height: 71px; cursor: pointer; border: 1px solid #eee; float: left; margin-right: 4px;}
+.content1 .scrollbox1 .hd li:last-child{ margin-right: 0;}
+.content1 .scrollbox1 .hd li img{ display: block; width: 113px; height: 71px;}
+.content1 .scrollbox1 .hd li.on{ border: 1px solid #E85041;}
+.content1 .xq{ width: 521px;  float: left; margin-left: 20px;}
+.content1 .xq .title{ font: 22px/26px "microsoft yahei"; color: #333;}
+.content1 .xq .tips{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/3-3.jpg) left center no-repeat; padding-left: 10px;}
+.content1 .xq .price{ border-top: 1px dotted #ddd; margin-top: 20px; border-bottom: 1px dotted #ddd; font-size: 0; padding: 10px 0;}
+.content1 .xq .price span{ font: 14px/26px "microsoft yahei"; color: #c0c0c0; display: inline-block; vertical-align: middle; margin-right: 40px;}
+.content1 .xq .price h3{ font: 30px/32px "microsoft yahei"; color: #E85041; display: inline-block; vertical-align: middle;}
+.content1 .xq .price h3 i{ font-size: 14px; font-style: normal;}
+.content1 .xq .price em{ font: 12px/26px "microsoft yahei"; color: #999; vertical-align: middle; display: inline-block; text-decoration: line-through;}
+.content1 .xq .num{ margin-top: 10px; font-size: 0;}
+.content1 .xq .num span{ font: 14px/26px "microsoft yahei"; color: #C0C0C0; margin-right: 40px; display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form{ display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form .number{ width: 59px; height: 35px; border: 1px solid #ddd; vertical-align: middle; text-align: center; color: #666;}
+.content1 .xq .num .form .btn{ display: inline-block; vertical-align: middle; margin-left: 3px;}
+.content1 .xq .num .form .btn a{ width: 17px; height: 15px; border: 1px solid #ddd; display: block;}
+.content1 .xq .num .form .btn .add{ background: url(../images/9-5-1.png) center center no-repeat; margin-bottom: 3px;}
+.content1 .xq .num .form .btn .reg{ background: url(../images/9-5.png) center center no-repeat;}
+.content1 .xq .num .form em{ font: 14px/26px "microsoft yahei"; color: #333; vertical-align: middle; margin-left: 4px;}
+.content1 .xq .buybox{ text-align: center; font-size: 0; margin-top: 20px; position: relative;}
+.content1 .xq .buybox a{ display: inline-block; width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; color: #fff;}
+.content1 .xq .buybox .sc{ background: #A57E61; margin-right: 8px;}
+.content1 .xq .buybox .buy{ background: #E85041;}
+.content1 .xq .buybox .scnum{ position: absolute; right: 0; top: 0;}
+.content1 .xq .buybox .scnum p{ font: 14px/26px "microsoft yahei"; color: #999;}
+.content1 .xq .buybox .scnum p:first-child{ background: url(../images/15-13.png) left center no-repeat; padding-left: 22px;}
+.content1 .xq .tabbox{ margin-top: 20px;}
+.content1 .xq .tabbox .menu{ font-size: 0; border-bottom: 1px solid #ddd;}
+.content1 .xq .tabbox .menu li{ display: inline-block; width: 92px; height: 40px; border: 1px solid #ddd; background: #f1f0ef; font: 14px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: none; cursor: pointer;}
+.content1 .xq .tabbox .menu li:first-child{ border-right: none;}
+.content1 .xq .tabbox .menu li.cur{ background: #fff;}
+.content1 .xq .tabbox .cont{ margin-top: 15px;}
+.content1 .xq .tabbox .cont .item{ font: 14px/20px "microsoft yahei"; color: #333; display: none;}
+
+.content2{ width: 1200px; margin: 20px auto; border-bottom: 38px solid #E85041; padding-bottom: 20px;}
+.content2 .title{ font: 14px/38px "microsoft yahei"; color: #fff; background: #E85041; padding-left: 15px;}
+.content2 .comm{ margin: 20px 0; font-size: 0; }
+.content2 .comm a{ display: inline-block; font: 12px/30px "microsoft yahei"; color: #333; background: #f2f2f2; padding: 0 10px; margin-right: 5px; border-radius: 4px;}
+.content2 .comm a.cur{ color: #fff; background: #ffc02a;}
+.content2 .list{ margin-top: ; border-bottom: 1px solid #ddd; }
+.content2 .list li{ border-top: 1px solid #ddd; padding: 15px 0;}
+.content2 .list li .start{ font-size: 0;}
+.content2 .list li .start em{ display: inline-block; width: 77px; height: 13px;}
+.content2 .list li .start em.start5{ background: url(../images/77-13.png) left top no-repeat;}
+.content2 .list li .start span{ font: 12px/18px "microsoft yahei"; color: #333; margin-left: 13px;}
+.content2 .list li .pl-ct{ overflow: hidden; margin: 10px 0;}
+.content2 .list li .pl-ct span{ font: 12px/18px "microsoft yahei"; color: #333;}
+.content2 .list li .pl-ct span em,.content2 .list li .pl-ct span i{ font-style: normal;}
+.content2 .list li .pl-ct .l{ float: left;}
+.content2 .list li .pl-ct .l i{ margin-left: 50px; width: 759px; display: inline-block; vertical-align: top;}
+.content2 .list li .pl-ct .r{ float: right;}
+.content2 .list li .pl-ct .r i{ color: #999; margin-left: 10px;}
+.content2 .list li .pic{ margin-left: 85px;}
+.content2 .list li .pic img{ width: 64px; height: 64px; padding: 2px; border: 1px solid #ddd;}
+
+.content3{ width: 1200px; margin: 20px auto;}
+.content3 .title{ font: 18px/26px "microsoft yahei"; color: #333;}
+.content3 .list{}
+.content3 .list li{ font-size: 0; position: relative; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 15px 0; margin: 10px 0;}
+.content3 .list li .pic{ width: 273px; height: 216px; border: 1px solid #ddd; display: inline-block; vertical-align: middle;}
+.content3 .list li .txt{ display: inline-block; vertical-align: middle; margin-left: 12px;}
+.content3 .list li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content3 .list li .txt .redfont{ color: #E85041;}
+.content3 .list li .join-cart{ width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; background: #A57E61; color: #fff; position: absolute; right: 0; top: 50%; margin-top: -20px; text-align: center;}
+
+.content4{ width: 1200px; margin: 20px auto;}
+.content4 .title{ font: 18px/26px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; padding-left: 12px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left; width: 275px; margin: 0 12px; }
+.content4 .cont li .pic{ width: 273px; height: 216px; overflow: hidden; border: 1px solid #ddd;}
+.content4 .cont li .txt{ margin-top: 10px; margin-left: 40px;}
+.content4 .cont li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content4 .cont li .txt .redfont{ color: #E85041;}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.content1{ width: 98%; margin: 0 auto;}
+.content1 .scrollPic{ width: 48%; float: left;}
+.content1 .scrollbox1{ width: 100%;}
+.content1 .scrollbox1 .bd{ height: auto;}
+.content1 .scrollbox1 .bd li{ height: auto;  border: 2px solid #e8e8e8;}
+.content1 .scrollbox1 .bd li img{ width: 100%; height: auto;}
+.content1 .scrollbox1 .hd{ margin-top: 8px; height: 73px;}
+.content1 .scrollbox1 .hd li{ width: 18%; height: auto; cursor: pointer; border: 1px solid #eee; float: left; margin-right: 1.8%;}
+.content1 .scrollbox1 .hd li:last-child{ margin-right: 0;}
+.content1 .scrollbox1 .hd li img{ display: block; width: 100%; height: auto;}
+.content1 .scrollbox1 .hd li.on{ border: 1px solid #E85041;}
+.content1 .xq{ width: 50%;  float: left; margin-left: 2%;}
+.content1 .xq .title{ font: 22px/26px "microsoft yahei"; color: #333;}
+.content1 .xq .tips{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/3-3.jpg) left center no-repeat; padding-left: 10px;}
+.content1 .xq .price{ border-top: 1px dotted #ddd; margin-top: 20px; border-bottom: 1px dotted #ddd; font-size: 0; padding: 10px 0;}
+.content1 .xq .price span{ font: 14px/26px "microsoft yahei"; color: #c0c0c0; display: inline-block; vertical-align: middle; margin-right: 40px;}
+.content1 .xq .price h3{ font: 30px/32px "microsoft yahei"; color: #E85041; display: inline-block; vertical-align: middle;}
+.content1 .xq .price h3 i{ font-size: 14px; font-style: normal;}
+.content1 .xq .price em{ font: 12px/26px "microsoft yahei"; color: #999; vertical-align: middle; display: inline-block; text-decoration: line-through;}
+.content1 .xq .num{ margin-top: 10px; font-size: 0;}
+.content1 .xq .num span{ font: 14px/26px "microsoft yahei"; color: #C0C0C0; margin-right: 40px; display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form{ display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form .number{ width: 59px; height: 35px; border: 1px solid #ddd; vertical-align: middle; text-align: center; color: #666;}
+.content1 .xq .num .form .btn{ display: inline-block; vertical-align: middle; margin-left: 3px;}
+.content1 .xq .num .form .btn a{ width: 17px; height: 15px; border: 1px solid #ddd; display: block;}
+.content1 .xq .num .form .btn .add{ background: url(../images/9-5-1.png) center center no-repeat; margin-bottom: 3px;}
+.content1 .xq .num .form .btn .reg{ background: url(../images/9-5.png) center center no-repeat;}
+.content1 .xq .num .form em{ font: 14px/26px "microsoft yahei"; color: #333; vertical-align: middle; margin-left: 4px;}
+.content1 .xq .buybox{ text-align: center; font-size: 0; margin-top: 20px; position: relative;}
+.content1 .xq .buybox a{ display: inline-block; width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; color: #fff;}
+.content1 .xq .buybox .sc{ background: #A57E61; margin-right: 8px;}
+.content1 .xq .buybox .buy{ background: #E85041;}
+.content1 .xq .buybox .scnum{ position: absolute; right: 0; top: 0;}
+.content1 .xq .buybox .scnum p{ font: 14px/26px "microsoft yahei"; color: #999;}
+.content1 .xq .buybox .scnum p:first-child{ background: url(../images/15-13.png) left center no-repeat; padding-left: 22px;}
+.content1 .xq .tabbox{ margin-top: 20px;}
+.content1 .xq .tabbox .menu{ font-size: 0; border-bottom: 1px solid #ddd;}
+.content1 .xq .tabbox .menu li{ display: inline-block; width: 92px; height: 40px; border: 1px solid #ddd; background: #f1f0ef; font: 14px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: none; cursor: pointer;}
+.content1 .xq .tabbox .menu li:first-child{ border-right: none;}
+.content1 .xq .tabbox .menu li.cur{ background: #fff;}
+.content1 .xq .tabbox .cont{ margin-top: 15px;}
+.content1 .xq .tabbox .cont .item{ font: 14px/20px "microsoft yahei"; color: #333; display: none;}
+
+.content2{ width: 98%; margin: 20px auto; border-bottom: 38px solid #E85041; padding-bottom: 20px;}
+.content2 .title{ font: 14px/38px "microsoft yahei"; color: #fff; background: #E85041; padding-left: 15px;}
+.content2 .comm{ margin: 20px 0; font-size: 0; }
+.content2 .comm a{ display: inline-block; font: 12px/30px "microsoft yahei"; color: #333; background: #f2f2f2; padding: 0 10px; margin-right: 5px; border-radius: 4px;}
+.content2 .comm a.cur{ color: #fff; background: #ffc02a;}
+.content2 .list{ margin-top: ; border-bottom: 1px solid #ddd; }
+.content2 .list li{ border-top: 1px solid #ddd; padding: 15px 0;}
+.content2 .list li .start{ font-size: 0;}
+.content2 .list li .start em{ display: inline-block; width: 77px; height: 13px;}
+.content2 .list li .start em.start5{ background: url(../images/77-13.png) left top no-repeat;}
+.content2 .list li .start span{ font: 12px/18px "microsoft yahei"; color: #333; margin-left: 13px;}
+.content2 .list li .pl-ct{ overflow: hidden; margin: 10px 0;}
+.content2 .list li .pl-ct span{ font: 12px/18px "microsoft yahei"; color: #333;}
+.content2 .list li .pl-ct span em,.content2 .list li .pl-ct span i{ font-style: normal;}
+.content2 .list li .pl-ct .l{ float: left;}
+.content2 .list li .pl-ct .l i{ margin-left: 50px; width: 759px; display: inline-block; vertical-align: top;}
+.content2 .list li .pl-ct .r{ float: right;}
+.content2 .list li .pl-ct .r i{ color: #999; margin-left: 10px;}
+.content2 .list li .pic{ margin-left: 85px;}
+.content2 .list li .pic img{ width: 64px; height: 64px; padding: 2px; border: 1px solid #ddd;}
+
+.content3{ width: 98%; margin: 20px auto;}
+.content3 .title{ font: 18px/26px "microsoft yahei"; color: #333;}
+.content3 .list{}
+.content3 .list li{ font-size: 0; position: relative; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 15px 0; margin: 10px 0;}
+.content3 .list li .pic{ width: 273px; height: 216px; border: 1px solid #ddd; display: inline-block; vertical-align: middle;}
+.content3 .list li .txt{ display: inline-block; vertical-align: middle; margin-left: 12px;}
+.content3 .list li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content3 .list li .txt .redfont{ color: #E85041;}
+.content3 .list li .join-cart{ width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; background: #A57E61; color: #fff; position: absolute; right: 0; top: 50%; margin-top: -20px; text-align: center;}
+
+.content4{ width: 98%; margin: 20px auto;}
+.content4 .title{ font: 18px/26px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; padding-left: 12px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left; width: 23%; margin: 0 1%; }
+.content4 .cont li .pic{ width: 99%; height: auto; overflow: hidden; border: 1px solid #ddd;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li .txt{ margin-top: 10px; margin-left: 40px;}
+.content4 .cont li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content4 .cont li .txt .redfont{ color: #E85041;}
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.content1{ width: 98%; margin: 0 auto;}
+.content1 .scrollPic{ width: 48%; float: left;}
+.content1 .scrollbox1{ width: 100%;}
+.content1 .scrollbox1 .bd{ height: auto;}
+.content1 .scrollbox1 .bd li{ height: auto;  border: 2px solid #e8e8e8;}
+.content1 .scrollbox1 .bd li img{ width: 100%; height: auto;}
+.content1 .scrollbox1 .hd{ margin-top: 8px; height: 73px;}
+.content1 .scrollbox1 .hd li{ width: 18%; height: auto; cursor: pointer; border: 1px solid #eee; float: left; margin-right: 1.8%;}
+.content1 .scrollbox1 .hd li:last-child{ margin-right: 0;}
+.content1 .scrollbox1 .hd li img{ display: block; width: 100%; height: auto;}
+.content1 .scrollbox1 .hd li.on{ border: 1px solid #E85041;}
+.content1 .xq{ width: 50%;  float: left; margin-left: 2%;}
+.content1 .xq .title{ font: 18px/26px "microsoft yahei"; color: #333;}
+.content1 .xq .tips{ font: 14px/26px "microsoft yahei"; color: #333; background: url(../images/3-3.jpg) left center no-repeat; padding-left: 10px;}
+.content1 .xq .price{ border-top: 1px dotted #ddd; margin-top: 20px; border-bottom: 1px dotted #ddd; font-size: 0; padding: 10px 0;}
+.content1 .xq .price span{ font: 14px/26px "microsoft yahei"; color: #c0c0c0; display: inline-block; vertical-align: middle; margin-right: 40px;}
+.content1 .xq .price h3{ font: 25px/32px "microsoft yahei"; color: #E85041; display: inline-block; vertical-align: middle;}
+.content1 .xq .price h3 i{ font-size: 14px; font-style: normal;}
+.content1 .xq .price em{ font: 12px/26px "microsoft yahei"; color: #999; vertical-align: middle; display: inline-block; text-decoration: line-through;}
+.content1 .xq .num{ margin-top: 10px; font-size: 0;}
+.content1 .xq .num span{ font: 14px/26px "microsoft yahei"; color: #C0C0C0; margin-right: 40px; display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form{ display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form .number{ width: 59px; height: 35px; border: 1px solid #ddd; vertical-align: middle; text-align: center; color: #666;}
+.content1 .xq .num .form .btn{ display: inline-block; vertical-align: middle; margin-left: 3px;}
+.content1 .xq .num .form .btn a{ width: 17px; height: 15px; border: 1px solid #ddd; display: block;}
+.content1 .xq .num .form .btn .add{ background: url(../images/9-5-1.png) center center no-repeat; margin-bottom: 3px;}
+.content1 .xq .num .form .btn .reg{ background: url(../images/9-5.png) center center no-repeat;}
+.content1 .xq .num .form em{ font: 14px/26px "microsoft yahei"; color: #333; vertical-align: middle; margin-left: 4px;}
+.content1 .xq .buybox{ text-align: left; font-size: 0; margin-top: 20px; position: relative;}
+.content1 .xq .buybox a{ display: inline-block; text-align: center; width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; color: #fff;}
+.content1 .xq .buybox .sc{ background: #A57E61; margin-right: 8px;}
+.content1 .xq .buybox .buy{ background: #E85041;}
+.content1 .xq .buybox .scnum{ position: absolute; right: 0; top: 0;}
+.content1 .xq .buybox .scnum p{ font: 14px/26px "microsoft yahei"; color: #999;}
+.content1 .xq .buybox .scnum p:first-child{ background: url(../images/15-13.png) left center no-repeat; padding-left: 22px;}
+.content1 .xq .tabbox{ margin-top: 20px;}
+.content1 .xq .tabbox .menu{ font-size: 0; border-bottom: 1px solid #ddd;}
+.content1 .xq .tabbox .menu li{ display: inline-block; width: 92px; height: 40px; border: 1px solid #ddd; background: #f1f0ef; font: 14px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: none; cursor: pointer;}
+.content1 .xq .tabbox .menu li:first-child{ border-right: none;}
+.content1 .xq .tabbox .menu li.cur{ background: #fff;}
+.content1 .xq .tabbox .cont{ margin-top: 15px;}
+.content1 .xq .tabbox .cont .item{ font: 12px/18px "microsoft yahei"; color: #333; display: none;}
+
+.content2{ width: 98%; margin: 20px auto; border-bottom: 38px solid #E85041; padding-bottom: 20px;}
+.content2 .title{ font: 14px/38px "microsoft yahei"; color: #fff; background: #E85041; padding-left: 15px;}
+.content2 .comm{ margin: 20px 0; font-size: 0; }
+.content2 .comm a{ display: inline-block; font: 12px/30px "microsoft yahei"; color: #333; background: #f2f2f2; padding: 0 10px; margin-right: 5px; border-radius: 4px;}
+.content2 .comm a.cur{ color: #fff; background: #ffc02a;}
+.content2 .list{ margin-top: ; border-bottom: 1px solid #ddd; }
+.content2 .list li{ border-top: 1px solid #ddd; padding: 15px 0;}
+.content2 .list li .start{ font-size: 0;}
+.content2 .list li .start em{ display: inline-block; width: 77px; height: 13px;}
+.content2 .list li .start em.start5{ background: url(../images/77-13.png) left top no-repeat;}
+.content2 .list li .start span{ font: 12px/18px "microsoft yahei"; color: #333; margin-left: 13px;}
+.content2 .list li .pl-ct{ overflow: hidden; margin: 10px 0;}
+.content2 .list li .pl-ct span{ font: 12px/18px "microsoft yahei"; color: #333;}
+.content2 .list li .pl-ct span em,.content2 .list li .pl-ct span i{ font-style: normal;}
+.content2 .list li .pl-ct .l{ float: left;}
+.content2 .list li .pl-ct .l i{ margin-left: 50px; width: 759px; display: inline-block; vertical-align: top;}
+.content2 .list li .pl-ct .r{ float: right;}
+.content2 .list li .pl-ct .r i{ color: #999; margin-left: 10px;}
+.content2 .list li .pic{ margin-left: 85px;}
+.content2 .list li .pic img{ width: 64px; height: 64px; padding: 2px; border: 1px solid #ddd;}
+
+.content3{ width: 98%; margin: 20px auto;}
+.content3 .title{ font: 18px/26px "microsoft yahei"; color: #333;}
+.content3 .list{}
+.content3 .list li{ font-size: 0; position: relative; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 15px 0; margin: 10px 0;}
+.content3 .list li .pic{ width: 273px; height: 216px; border: 1px solid #ddd; display: inline-block; vertical-align: middle;}
+.content3 .list li .txt{ display: inline-block; vertical-align: middle; margin-left: 12px;}
+.content3 .list li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content3 .list li .txt .redfont{ color: #E85041;}
+.content3 .list li .join-cart{ width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; background: #A57E61; color: #fff; position: absolute; right: 0; top: 50%; margin-top: -20px; text-align: center;}
+
+.content4{ width: 98%; margin: 20px auto;}
+.content4 .title{ font: 18px/26px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; padding-left: 12px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left; width: 23%; margin: 0 1%; }
+.content4 .cont li .pic{ width: 99%; height: auto; overflow: hidden; border: 1px solid #ddd;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li .txt{ margin-top: 10px; margin-left: 0;}
+.content4 .cont li .txt p{ font: 14px/26px "microsoft yahei"; color: #333; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.content4 .cont li .txt .redfont{ color: #E85041;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	
+	.now{ width: 98%; margin: 10px auto; font: 14px/26px "microsoft yahei"; color: #999;}
+.now img{ vertical-align: middle; margin-top: -4px;}
+
+.content1{ width: 98%; margin: 0 auto;}
+.content1 .scrollPic{ width: 100%; float: none;}
+.content1 .scrollbox1{ width: 100%;}
+.content1 .scrollbox1 .bd{ height: auto;}
+.content1 .scrollbox1 .bd li{ height: auto;  border: 1px solid #e8e8e8;}
+.content1 .scrollbox1 .bd li img{ width: 100%; height: auto;}
+.content1 .scrollbox1 .hd{ margin-top: 8px; height: 73px;}
+.content1 .scrollbox1 .hd li{ width: 18%; height: auto; cursor: pointer; border: 1px solid #eee; float: left; margin-right: 1.5%;}
+.content1 .scrollbox1 .hd li:last-child{ margin-right: 0;}
+.content1 .scrollbox1 .hd li img{ display: block; width: 100%; height: auto;}
+.content1 .scrollbox1 .hd li.on{ border: 1px solid #E85041;}
+.content1 .xq{ width: 100%;  float: none; margin-left: 0; }
+.content1 .xq .title{ font: 16px/24px "microsoft yahei"; color: #333;}
+.content1 .xq .tips{ font: 13px/24px "microsoft yahei"; color: #333; background: url(../images/3-3.jpg) left center no-repeat; padding-left: 10px;}
+.content1 .xq .price{ border-top: 1px dotted #ddd; margin-top: 20px; border-bottom: 1px dotted #ddd; font-size: 0; padding: 10px 0;}
+.content1 .xq .price span{ font: 14px/24px "microsoft yahei"; color: #c0c0c0; display: inline-block; vertical-align: middle; margin-right: 40px;}
+.content1 .xq .price h3{ font: 20px/26px "microsoft yahei"; color: #E85041; display: inline-block; vertical-align: middle;}
+.content1 .xq .price h3 i{ font-size: 14px; font-style: normal;}
+.content1 .xq .price em{ font: 12px/26px "microsoft yahei"; color: #999; vertical-align: middle; display: inline-block; text-decoration: line-through;}
+.content1 .xq .num{ margin-top: 10px; font-size: 0;}
+.content1 .xq .num span{ font: 14px/24px "microsoft yahei"; color: #C0C0C0; margin-right: 40px; display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form{ display: inline-block; vertical-align: middle;}
+.content1 .xq .num .form .number{ width: 59px; height: 35px; border: 1px solid #ddd; vertical-align: middle; text-align: center; color: #666;}
+.content1 .xq .num .form .btn{ display: inline-block; vertical-align: middle; margin-left: 3px;}
+.content1 .xq .num .form .btn a{ width: 17px; height: 15px; border: 1px solid #ddd; display: block;}
+.content1 .xq .num .form .btn .add{ background: url(../images/9-5-1.png) center center no-repeat; margin-bottom: 3px;}
+.content1 .xq .num .form .btn .reg{ background: url(../images/9-5.png) center center no-repeat;}
+.content1 .xq .num .form em{ font: 14px/26px "microsoft yahei"; color: #333; vertical-align: middle; margin-left: 4px;}
+.content1 .xq .buybox{ text-align: left; font-size: 0; margin-top: 20px; position: relative;}
+.content1 .xq .buybox a{ display: inline-block; text-align: center; width: 134px; height: 40px; font: 14px/40px "microsoft yahei"; color: #fff;}
+.content1 .xq .buybox .sc{ background: #A57E61; margin-right: 8px;}
+.content1 .xq .buybox .buy{ background: #E85041;}
+.content1 .xq .buybox .scnum{ display: none;}
+.content1 .xq .tabbox{ margin-top: 20px;}
+.content1 .xq .tabbox .menu{ font-size: 0; border-bottom: 1px solid #ddd;}
+.content1 .xq .tabbox .menu li{ display: inline-block; width: 92px; height: 40px; border: 1px solid #ddd; background: #f1f0ef; font: 14px/40px "microsoft yahei"; color: #333; text-align: center; border-bottom: none; cursor: pointer;}
+.content1 .xq .tabbox .menu li:first-child{ border-right: none;}
+.content1 .xq .tabbox .menu li.cur{ background: #fff;}
+.content1 .xq .tabbox .cont{ margin-top: 15px;}
+.content1 .xq .tabbox .cont .item{ font: 12px/18px "microsoft yahei"; color: #333; display: none;}
+
+.content2{ width: 98%; margin: 20px auto; border-bottom: 38px solid #E85041; padding-bottom: 20px;}
+.content2 .title{ font: 14px/38px "microsoft yahei"; color: #fff; background: #E85041; padding-left: 15px;}
+.content2 .comm{ margin: 20px 0; font-size: 0; }
+.content2 .comm a{ display: inline-block; font: 12px/30px "microsoft yahei"; color: #333; background: #f2f2f2; padding: 0 10px; margin-right: 5px; border-radius: 4px; margin-bottom: 5px;}
+.content2 .comm a.cur{ color: #fff; background: #ffc02a;}
+.content2 .list{ margin-top: ; border-bottom: 1px solid #ddd; }
+.content2 .list li{ border-top: 1px solid #ddd; padding: 15px 0 30px; position: relative;}
+.content2 .list li .start{ font-size: 0;}
+.content2 .list li .start em{ display: inline-block; width: 77px; height: 13px;}
+.content2 .list li .start em.start5{ background: url(../images/77-13.png) left top no-repeat;}
+.content2 .list li .start span{ font: 12px/18px "microsoft yahei"; color: #333; margin-left: 13px;}
+.content2 .list li .pl-ct{ overflow: hidden; margin: 10px 0;}
+.content2 .list li .pl-ct span{ font: 12px/18px "microsoft yahei"; color: #333;}
+.content2 .list li .pl-ct span em,.content2 .list li .pl-ct span i{ font-style: normal; }
+.content2 .list li .pl-ct .l{ float: none;}
+.content2 .list li .pl-ct .l i{ margin-left: 0; width: auto; display: inline-block; vertical-align: top;}
+.content2 .list li .pl-ct .r{ float: none; position: absolute; bottom: 5px;}
+.content2 .list li .pl-ct .r i{ color: #999; margin-left: 0; margin-right: 10px; }
+.content2 .list li .pic{ margin-left: 0;}
+.content2 .list li .pic img{ width: 64px; height: 64px; padding: 2px; border: 1px solid #ddd;}
+
+.content3{ width: 98%; margin: 20px auto;}
+.content3 .title{ font: 16px/26px "microsoft yahei"; color: #333;}
+.content3 .list{}
+.content3 .list li{ font-size: 0; position: relative; border-top: 1px solid #ddd; border-bottom: none; padding: 15px 0 40px; margin: 10px 0;}
+.content3 .list li .pic{ width: 100%; height: auto; border: 1px solid #ddd;display: block; text-align: center; }
+.content3 .list li .txt{ display: block; width: auto; margin: 8px 0 0;}
+.content3 .list li .txt p{ font: 14px/26px "microsoft yahei"; color: #333;}
+.content3 .list li .txt .redfont{ color: #E85041;}
+.content3 .list li .join-cart{ width: 134px; height: 30px; font: 14px/30px "microsoft yahei"; background: #A57E61; color: #fff; position: absolute; right: auto; left: 0; top: auto; bottom: 5px; margin-top: 0; text-align: center;}
+
+.content4{ width: 98%; margin: 20px auto;}
+.content4 .title{ font: 18px/26px "microsoft yahei"; color: #333; border-bottom: 1px solid #ddd; padding-left: 0;}
+.content4 .cont{ margin-top: 5px;}
+.content4 .cont li{ float: left; width: 48%; margin: 0 1% 8px; }
+.content4 .cont li .pic{ width: 99%; height: auto; overflow: hidden; border: 1px solid #ddd;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li .txt{ margin-top: 10px; margin-left: 0;}
+.content4 .cont li .txt p{ font: 14px/26px "microsoft yahei"; color: #333; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.content4 .cont li .txt .redfont{ color: #E85041;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -48,7 +48,7 @@
 <body>
 	<ul class="contaienr">
 		<div>
-			<h3>鼠标放在图片上并且长按左键出效果喔</h3>
+			<h3>鼠标放在图片上并且长按鼠标出效果喔</h3>
 		</div>
 		<li></li>
 		<li></li>
@@ -61,11 +61,14 @@
 		<li></li>
 	</ul>
 	<script>
-		 var aLi = document.querySelectorAll('li');
+		window.onload=function(){
+			var aLi = document.querySelectorAll('li');
 
-		 aLi.forEach(function(oLi,index){
-		 	oLi.style.backgroundImage = 'url(../img/cat-'+(index+1)+'.png)'
-		 })
+			aLi.forEach(function(oLi,index){
+				oLi.style.backgroundImage = 'url(../img/cat-'+(index+1)+'.jpg)'
+				return false;
+			})
+		};
 	</script>
 </body>
 </html>

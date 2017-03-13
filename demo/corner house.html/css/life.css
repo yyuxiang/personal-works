@@ -1,0 +1,310 @@
+.swiper-container-a .swiper-pagination-a .swiper-pagination-bullet{ width: 14px; height: 14px; border: 1px solid #fff; background: none; opacity: 1;}
+.swiper-container-a .swiper-pagination-a .swiper-pagination-bullet-active{ background: #fff;}
+.swiper-container-a .swiper-wrapper img{ display: block; width: 100%;}
+
+.main{ width: 1200px; margin: 20px auto;}
+.main .set{ margin-bottom: 15px;}
+.main .set select{ border: none; border-bottom: 3px solid #A57E61; font: 16px/32px "microsoft yahei"; color: #333; outline: medium;}
+
+.content1{}
+.main .tit{ text-align: center; background: url(../images/1197-1.png) center center no-repeat;}
+.main .tit h3{ font: 38px/50px "microsoft yahei"; color: #3e3e3e; font-weight: 100;}
+.main .tit p{ font: 34px/40px "microsoft yahei"; color: #333;}
+.content1 .cont{ margin-top: 30px;}
+.content1 .cont li{ width: 356px; padding: 10px; border: 1px solid #ddd; float: left; height: 289px; margin-right: 32px;}
+.content1 .cont li:last-child{ margin-right: 0;}
+.content1 .cont li .pic{ width: 356px; height: 247px;}
+.content1 .cont li p{ font: 16px/20px "microsoft yahei"; color: #333; margin-top: 15px;}
+.content1 .cont li .newlist{ margin: 0 8px;}
+.content1 .cont li .newlist dd{text-overflow: ellipsis; overflow: hidden; white-space: normal;}
+.content1 .cont li .newlist dd a{ font: 14px/20px "microsoft yahei"; color: #333; padding-left: 12px; background: url(../images/6-6.png) left center no-repeat; }
+
+.content2{ margin-top: 40px;}
+.content2 .cont{ margin-top: 30px;}
+.content2 .cont .slidebar_l{ width: 763px; float: left; padding: 10px; border: 1px solid #ddd;}
+.content2 .cont .slidebar_l .pic{ height: 249px; overflow: hidden;}
+.content2 .cont .slidebar_l p{ font: 16px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont .slidebar_r{ float: right; width: 356px; padding: 10px; border: 1px solid #ddd;}
+.content2 .cont .slidebar_r .pic{ height: 249px; overflow: hidden;}
+.content2 .cont .slidebar_r p{ font: 16px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont1{ margin-top: 15px;}
+.content2 .cont1 li{ width: 356px; padding: 10px; border: 1px solid #ddd; float: left; height: 289px; margin-right: 33px;}
+.content2 .cont1 li:last-child{margin-right: 0;}
+.content2 .cont1 li .pic{ height: 249px; overflow: hidden;}
+.content2 .cont1 li p{ font: 16px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3{ margin-top: 40px;}
+.content3 .cont{ margin-top: 20px;}
+.content3 .cont li{ float: left; width: 567px; padding: 10px; border: 1px solid #ddd; text-align: center;}
+.content3 .cont li:nth-child(2n){ float: right;}
+.content3 .cont li .pic{ height: 265px;}
+.content3 .cont li p{ font: 16px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content3 .cont1{ margin-top: 15px;}
+.content3 .cont1 li{ width: 587px; float: left; border: 1px solid #ddd; overflow: hidden; font-size: 0;}
+.content3 .cont1 li:nth-child(2){ float: right;}
+.content3 .cont1 li .pic{ width: 311px; height: 289px; padding: 10px; border-right: 1px solid #ddd; display: inline-block; vertical-align: middle; }
+.content3 .cont1 li .txt{ width: 255px; display: inline-block; vertical-align: middle;}
+.content3 .cont1 li .txt h3{ background: #616161; font: 18px/30px "microsoft yahei"; color: #fff; padding: 20px 25px; }
+.content3 .cont1 li .txt p{ font: 14px/24px "microsoft yahei"; color: #333; padding: 20px 25px;}
+.content3 .cont1 li .txt p a{ color: #333;}
+
+.content4{ margin-top: 40px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left; width: 567px; padding: 10px; border: 1px solid #ddd; text-align: center;}
+.content4 .cont li:nth-child(2n){ float: right;}
+.content4 .cont li .pic{ height: 265px;}
+.content4 .cont li p{ font: 16px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content4 .cont1{ margin-top: 15px;}
+.content4 .cont1 li{ width: 356px; padding: 10px; border: 1px solid #ddd; float: left; height: 289px; margin-right: 33px;}
+.content4 .cont1 li:last-child{margin-right: 0;}
+.content4 .cont1 li .pic{ height: 249px; overflow: hidden;}
+.content4 .cont1 li p{ font: 16px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3 .gbanner1{ text-align: center; margin-top: 30px;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	.main{ width: 98%; margin: 20px auto;}
+.main .set{ margin-bottom: 15px;}
+.main .set select{ border: none; border-bottom: 3px solid #A57E61; font: 16px/32px "microsoft yahei"; color: #333; outline: medium;}
+
+.content1{}
+.main .tit{ text-align: center; background: url(../images/1197-1.png) center center no-repeat;}
+.main .tit h3{ font: 38px/50px "microsoft yahei"; color: #3e3e3e; font-weight: 100;}
+.main .tit p{ font: 34px/40px "microsoft yahei"; color: #333;}
+.content1 .cont{ margin-top: 30px;}
+.content1 .cont li{ width: 31%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: auto; margin-right: 0.5%;}
+.content1 .cont li:last-child{ margin-right: 0;}
+.content1 .cont li .pic{ width: 100%; height: auto;}
+.content1 .cont li .pic img{ display: block; width: 100%;}
+.content1 .cont li p{ font: 14px/20px "microsoft yahei"; color: #333; margin-top: 5px;}
+.content1 .cont li .newlist{ margin: 0 8px;}
+.content1 .cont li .newlist dd{text-overflow: ellipsis; overflow: hidden; white-space: normal;}
+.content1 .cont li .newlist dd a{ font: 14px/20px "microsoft yahei"; color: #333; padding-left: 12px; background: url(../images/6-6.png) left center no-repeat; }
+
+.content2{ margin-top: 40px;}
+.content2 .cont{ margin-top: 30px;}
+.content2 .cont .slidebar_l{ width: 54%; float: left; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_l .pic{ height: 249px; overflow: hidden;}
+.content2 .cont .slidebar_l p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont .slidebar_r{ float: right; width: 40%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_r .pic{ height: 249px; overflow: hidden;}
+.content2 .cont .slidebar_r p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont1{ margin-top: 15px;}
+.content2 .cont1 li{ width: 30%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: 289px; margin-right: 2%;}
+.content2 .cont1 li:last-child{margin-right: 0;}
+.content2 .cont1 li .pic{ height: 249px; overflow: hidden;}
+.content2 .cont1 li p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3{ margin-top: 40px;}
+.content3 .cont{ margin-top: 20px;}
+.content3 .cont li{ float: left; width: 46%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content3 .cont li:nth-child(2n){ float: right;}
+.content3 .cont li .pic{ height: auto; overflow: hidden;}
+.content3 .cont li .pic img{ display: block; width: 100%;}
+.content3 .cont li p{ font: 14px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content3 .cont1{ margin-top: 15px;}
+.content3 .cont1 li{ width: 48%; float: left; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); overflow: hidden; font-size: 0;}
+.content3 .cont1 li:nth-child(2){ float: right;}
+.content3 .cont1 li .pic{ width: 48%; height: auto; padding: 1%; border-right: 1px solid #ddd; display: inline-block; vertical-align: middle; }
+.content3 .cont1 li .pic img{ display: block; width: 100%;}
+.content3 .cont1 li .txt{ width: 49.5%; display: inline-block; vertical-align: middle;}
+.content3 .cont1 li .txt h3{ background: #616161; font: 14px/24px "microsoft yahei"; color: #fff; padding: 10px 25px; }
+.content3 .cont1 li .txt p{ font: 12px/18px "microsoft yahei"; color: #333; padding: 20px 25px;}
+.content3 .cont1 li .txt p a{ color: #333;}
+
+.content4{ margin-top: 40px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left;  width: 46%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content4 .cont li:nth-child(2n){ float: right;}
+.content4 .cont li .pic{ height: auto;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li p{ font: 14px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content4 .cont1{ margin-top: 15px;}
+.content4 .cont1 li{ width: 31%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: 289px; margin-right: 0.5%;}
+.content4 .cont1 li:last-child{margin-right: 0;}
+.content4 .cont1 li .pic{ height: 249px; overflow: hidden;}
+.content4 .cont1 li p{ font: 16px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3 .gbanner1{ text-align: center; margin-top: 30px;}
+.content3 .gbanner1 img{ display: block; width: 100%;}
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .set{ margin-bottom: 15px;}
+.main .set select{ border: none; border-bottom: 3px solid #A57E61; font: 16px/32px "microsoft yahei"; color: #333; outline: medium;}
+
+.content1{}
+.main .tit{ text-align: center; background: url(../images/1197-1.png) center center no-repeat; background-size: 100%;}
+.main .tit h3{ font: 26px/38px "microsoft yahei"; color: #3e3e3e; font-weight: 100;}
+.main .tit p{ font: 21px/30px "microsoft yahei"; color: #333;}
+.content1 .cont{ margin-top: 30px;}
+.content1 .cont li{ width: 46%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: auto; margin-right: 4%;}
+.content1 .cont li:nth-child(2){ margin-right: 0;}
+.content1 .cont li:last-child{ margin-right: 0; width: 98%; margin-top: 15px;}
+.content1 .cont li .pic{ width: 100%; height: auto;}
+.content1 .cont li .pic img{ display: block; width: 100%;}
+.content1 .cont li p{ font: 14px/20px "microsoft yahei"; color: #333; margin-top: 5px; text-align: center;}
+.content1 .cont li .newlist{ margin: 0 8px;}
+.content1 .cont li .newlist dd{text-overflow: ellipsis; overflow: hidden; white-space: normal;}
+.content1 .cont li .newlist dd a{ font: 14px/20px "microsoft yahei"; color: #333; padding-left: 12px; background: url(../images/6-6.png) left center no-repeat; }
+
+.content2{ margin-top: 40px;}
+.content2 .cont{ margin-top: 30px;}
+.content2 .cont .slidebar_l{ width: 54%; float: left; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_l .pic{ height: 140px; overflow: hidden;}
+.content2 .cont .slidebar_l .pic img{ display: block; height: 100%; margin: 0 auto;}
+.content2 .cont .slidebar_l p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont .slidebar_r{ float: right; width: 40%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_r .pic{ height: 140px; overflow: hidden;}
+.content2 .cont .slidebar_r .pic img{ display: block; height: 100%; margin: 0 auto;}
+.content2 .cont .slidebar_r p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+.content2 .cont1{ margin-top: 15px;}
+.content2 .cont1 li{ width: 30%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: auto; margin-right: 2%;}
+.content2 .cont1 li:last-child{margin-right: 0;}
+.content2 .cont1 li .pic{ height: 140px; overflow: hidden;}
+.content2 .cont1 li .pic img{ display: block; height: 100%; margin: 0 auto;}
+.content2 .cont1 li p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3{ margin-top: 40px;}
+.content3 .cont{ margin-top: 20px;}
+.content3 .cont li{ float: left; width: 46%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content3 .cont li:nth-child(2n){ float: right;}
+.content3 .cont li .pic{ height: auto; overflow: hidden;}
+.content3 .cont li .pic img{ display: block; width: 100%;}
+.content3 .cont li p{ font: 14px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content3 .cont1{ margin-top: 15px;}
+.content3 .cont1 li{ width: 48%; float: left; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); overflow: hidden; font-size: 0;}
+.content3 .cont1 li:nth-child(2){ float: right;}
+.content3 .cont1 li .pic{ width: 48%; height: auto; padding: 1%; border-right: 1px solid #ddd; display: inline-block; vertical-align: middle; }
+.content3 .cont1 li .pic img{ display: block; width: 100%;}
+.content3 .cont1 li .txt{ width: 49.5%; display: inline-block; vertical-align: middle;}
+.content3 .cont1 li .txt h3{ background: #616161; font: 14px/24px "microsoft yahei"; color: #fff; padding: 5px 5px; }
+.content3 .cont1 li .txt p{ font: 12px/18px "microsoft yahei"; color: #333; padding: 10px 5px;}
+.content3 .cont1 li .txt p a{ color: #333;}
+
+.content4{ margin-top: 40px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: left;  width: 46%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content4 .cont li:nth-child(2n){ float: right;}
+.content4 .cont li .pic{ height: auto;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li p{ font: 14px/25px "microsoft yahei"; color: #333; margin-top: 8px;}
+.content4 .cont1{ margin-top: 15px;}
+.content4 .cont1 li{ width: 31%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: left; height: auto; margin-right: 0.5%;}
+.content4 .cont1 li:last-child{margin-right: 0;}
+.content4 .cont1 li .pic{ height: 140px; overflow: hidden;}
+.content4 .cont1 li .pic img{ display: block; height: 100%; margin: 0 auto;}
+.content4 .cont1 li p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;}
+
+.content3 .gbanner1{ text-align: center; margin-top: 30px;}
+.content3 .gbanner1 img{ display: block; width: 100%;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 639px) {
+	.main{ width: 98%; margin: 20px auto;}
+.main .set{ margin-bottom: 15px;}
+.main .set select{ border: none; border-bottom: 3px solid #A57E61; font: 14px/32px "microsoft yahei"; color: #333; outline: medium;}
+
+.content1{}
+.main .tit{ text-align: center; background: url(../images/1197-1.png) center center no-repeat; background-size: 100%;}
+.main .tit h3{ font: 16px/21px "microsoft yahei"; color: #3e3e3e; font-weight: 100;}
+.main .tit p{ font: 14px/20px "microsoft yahei"; color: #333;}
+.content1 .cont{ margin-top: 30px;}
+.content1 .cont li{ width: 98%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: none; height: auto; margin-right: 0;}
+.content1 .cont li:nth-child(2){ margin-right: 0; margin-top: 10px;}
+.content1 .cont li:last-child{ margin-right: 0; width: 98%; margin-top: 10px;}
+.content1 .cont li .pic{ width: 100%; height: auto;}
+.content1 .cont li .pic img{ display: block; width: 100%;}
+.content1 .cont li p{ font: 14px/20px "microsoft yahei"; color: #333; margin-top: 5px; text-align: center; text-overflow: ellipsis; white-space: normal; overflow: hidden;}
+.content1 .cont li .newlist{ margin: 0 8px;}
+.content1 .cont li .newlist dd{text-overflow: ellipsis; overflow: hidden; white-space: normal;}
+.content1 .cont li .newlist dd a{ font: 14px/20px "microsoft yahei"; color: #333; padding-left: 12px; background: url(../images/6-6.png) left center no-repeat; text-overflow: ellipsis; white-space: normal; overflow: hidden;}
+
+.content2{ margin-top: 20px;}
+.content2 .cont{ margin-top: 30px;}
+.content2 .cont .slidebar_l{ width: 98%; float: none; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_l .pic{ height: auto; overflow: hidden;}
+.content2 .cont .slidebar_l .pic img{ display: block; width: 100%; margin: 0 auto;}
+.content2 .cont .slidebar_l p{ font: 12px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+.content2 .cont .slidebar_r{ float: none; width: 98%; margin-top: 10px; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3);}
+.content2 .cont .slidebar_r .pic{ height: auto; overflow: hidden;}
+.content2 .cont .slidebar_r .pic img{ display: block; width: 100%; margin: 0 auto;}
+.content2 .cont .slidebar_r p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+.content2 .cont1{ margin-top: 10px;}
+.content2 .cont1 li{ width: 98%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: none; height: auto; margin-right: 0; margin-bottom: 10px;}
+.content2 .cont1 li:last-child{margin-right: 0;}
+.content2 .cont1 li .pic{ height: auto; overflow: hidden;}
+.content2 .cont1 li .pic img{ display: block; width: 100%; margin: 0 auto;}
+.content2 .cont1 li p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+
+.content3{ margin-top: 20px;}
+.content3 .cont{ margin-top: 20px;}
+.content3 .cont li{ float: none; width: 98%; margin-bottom: 10px; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content3 .cont li:nth-child(2n){ float: none;}
+.content3 .cont li .pic{ height: auto; overflow: hidden;}
+.content3 .cont li .pic img{ display: block; width: 100%;}
+.content3 .cont li p{ font: 12px/25px "microsoft yahei"; color: #333; margin-top: 8px; text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+.content3 .cont1{ margin-top: 15px;}
+.content3 .cont1 li{ width: 98%; float: none; margin-bottom: 10px; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); overflow: hidden; font-size: 0;}
+.content3 .cont1 li:nth-child(2){ float: none;}
+.content3 .cont1 li .pic{ width: 98%; height: auto; padding: 1%; border-right: none; display: inline-block; vertical-align: middle; }
+.content3 .cont1 li .pic img{ display: block; width: 100%;}
+.content3 .cont1 li .txt{ width: 100%; display: inline-block; vertical-align: middle; text-align: center;}
+.content3 .cont1 li .txt h3{ background: #616161; font: 14px/24px "microsoft yahei"; color: #fff; padding: 5px 5px; }
+.content3 .cont1 li .txt p{ font: 12px/18px "microsoft yahei"; color: #333; padding: 10px 5px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+.content3 .cont1 li .txt p a{ color: #333;}
+
+.content4{ margin-top: 20px;}
+.content4 .cont{ margin-top: 20px;}
+.content4 .cont li{ float: none;  width: 98%; margin-bottom: 10px; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); text-align: center;}
+.content4 .cont li:nth-child(2n){ float: right;}
+.content4 .cont li .pic{ height: auto;}
+.content4 .cont li .pic img{ display: block; width: 100%;}
+.content4 .cont li p{ font: 12px/25px "microsoft yahei"; color: #333; margin-top: 8px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+.content4 .cont1{ margin-top: 15px;}
+.content4 .cont1 li{ width: 98%; padding: 1%; border: none; box-shadow: 0 0 1px rgba(0,0,0,0.3); float: none; height: auto; margin-right: 0.5%;}
+.content4 .cont1 li:last-child{margin-right: 0;}
+.content4 .cont1 li .pic{ height: auto; overflow: hidden;}
+.content4 .cont1 li .pic img{ display: block; width: 100%; margin: 0 auto;}
+.content4 .cont1 li p{ font: 14px/32px "microsoft yahei"; color: #333; text-align: center; margin-top: 8px;text-overflow:ellipsis;
+white-space:nowrap; overflow:hidden;}
+
+.content3 .gbanner1{ text-align: center; margin-top: 30px;}
+.content3 .gbanner1 img{ display: block; width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
