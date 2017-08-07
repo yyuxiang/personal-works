@@ -199,9 +199,9 @@
 	background: #84972b;
 }
 #warp #footer{
-	background: url(../img/footer_bg.jpg) no-repeat;
-	width: 100%;
-	height: 100px;
+	background: url(../img/footer_bg.jpg) repeat-x;
+	/* width: 100%; */
+	height: 270px;
 }
 /*技能图解*/
 #main_contain .SkillBox{
